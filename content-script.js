@@ -127,31 +127,6 @@ function updateBoard() {
   }
 }
 
-/* // Polling-Funktion: prüft alle 500 ms, ob erste Kachel im DOM ist
-function waitForTiles() {
-  const maxTries = 20; // maximal 20 Versuche (also 10 Sekunden)
-  let attempts = 0;
-
-  const intervalId = setInterval(() => {
-    attempts++;
-
-    // Wir checken hier, ob Slot 1 und seine text-container-Div existieren
-    const firstTextDiv = document.querySelector("#slot1 .vertical-center.text-container");
-    if (firstTextDiv) {
-      console.log("Tile-Elemente erkannt – updateBoard() wird jetzt ausgeführt.");
-      updateBoard();
-      clearInterval(intervalId);
-      return;
-    }
-
-    if (attempts >= maxTries) {
-      console.warn("Timeout: Kachel-Elemente wurden nach 10 Sekunden nicht gefunden.");
-      clearInterval(intervalId);
-    }
-  }, 500);
-}
- */
-
 // Starte everything
 window.addEventListener("load", () => {
 loadMapping();
