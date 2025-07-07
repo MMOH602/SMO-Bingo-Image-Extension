@@ -30,8 +30,6 @@ async function loadMapping() {
     const response = await fetch(url);
     bingoMapping = await response.json();
     console.log("Bingo-Mapping geladen", bingoMapping);
-    // Starte jetzt das Polling, um auf die Kacheln zu warten
-    waitForTiles();
   } catch (e) {
     console.error("Fehler beim Laden der Mapping-JSON:", e);
   }
