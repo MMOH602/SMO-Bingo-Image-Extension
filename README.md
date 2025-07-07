@@ -6,7 +6,12 @@ SMO-specific extension that adds images on Bingosync.
 </p>
 
 How to install:
-Simply clone or download this repo and add it as a local extension.
+1. Clone or download this repo.  
+2. Open your browser and navigate to its extensions page:  
+   - Chrome/Edge: `chrome://extensions/`  
+   - Opera: `opera://extensions/`  
+3. Enable **Developer mode**.  
+4. Click **Load unpacked** (or **Load temporary extension** in Opera) and select the project folder.  
 
 Features:
 - **Replace tile text** with images (32 px height) defined in a JSON mapping.  
