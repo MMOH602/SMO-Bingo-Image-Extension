@@ -435,7 +435,7 @@
     "kingdom": "Metro",
     "image": "images/outfits/outfit_metro.png",
     "difficulty": 8,
-    "text": "Outfit Door"
+    "text": "Rewiring the Neighborhood"
   },
   "15 Regional Coins (Cap)": {
     "kingdom": "Cap",
@@ -639,7 +639,7 @@
     "kingdom": "Wooded",
     "image": "images/outfits/outfit_wooded.png",
     "difficulty": 11,
-    "text": "Outfit Door"
+    "text": "Exploring for Treasure"
   },
   "4 Moons from sub-areas (Wooded)": {
     "kingdom": "Wooded",
@@ -669,7 +669,7 @@
     "kingdom": "Sand",
     "image": "images/outfits/outfit_sand.png",
     "difficulty": 11,
-    "text": "Outfit Door"
+    "text": "Dancing with New Friends"
   },
   "20 Regional Coins (Lost)": {
     "kingdom": "Lost",
@@ -1323,7 +1323,7 @@
     "kingdom": "Seaside",
     "image": "images/outfits/outfit_seaside.png",
     "difficulty": 21,
-    "text": "Outfit Door"
+    "text": "A Relaxing Dance"
   },
   "1 Checkpoint (Snow)": {
     "kingdom": "Snow",
