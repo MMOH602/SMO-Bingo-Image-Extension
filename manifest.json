@@ -11,14 +11,16 @@
         "fonts/Bangers.woff2"
       ],
       "matches": [
-        "*://bingosync.com/*"
+        "*://bingosync.com/*",
+        "*://*.bingosync.com/*"
       ]
     }
   ],
   "content_scripts": [
     {
       "matches": [
-        "*://bingosync.com/room/*"
+        "*://bingosync.com/room/*",
+        "*://*.bingosync.com/room/*"
       ],
       "js": [
         "content-script.js"
