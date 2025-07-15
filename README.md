@@ -6,6 +6,9 @@ SMO-specific extension that adds images on Bingosync.
 </p>
 
 How to install:
+
+Only Chrome and Edge have been tested but the extension should work in all Chromium‑based browsers (Chrome, Edge, Brave, Opera, Vivaldi) under Manifest V3. Trying to use it with Firefox results in major issues.
+
 1. Clone or download this repo.  
 2. Open your browser and navigate to its extensions page:  
    - Chrome/Edge: `chrome://extensions/`  
@@ -17,7 +20,6 @@ Features:
 - **Replace tile text** with images (32 px height) defined in a JSON mapping.  
 - **Add colored badges** (e.g. `CASADE`, `SAND`, `LAKE`, `ALL`) to each tile based on its “kingdom.”  
 - **“Load Images”** button lets you manually (re‑)apply the image/badge overlay.  
-- Works in all Chromium‑based browsers (Chrome, Edge, Brave, Opera, Vivaldi) under Manifest V3.
 
 Additional Notes:
 - The button may appear on other games, but it won’t have any functionality there.
