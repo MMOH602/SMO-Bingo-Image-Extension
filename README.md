@@ -14,11 +14,38 @@ Only Chrome and Edge have been tested but the extension should work in all Chrom
    - Chrome/Edge: `chrome://extensions/`  
    - Opera: `opera://extensions/`  
 3. Enable **Developer mode**.  
-4. Click **Load unpacked** (or **Load temporary extension** in Opera) and select the project folder.  
+4. Click **Load unpacked** (or **Load temporary extension** in Opera) and select the project folder.
+
+Configuration & Settings:
+
+1. Open the Settings (Options) page
+
+- **Via Extensions page**  
+  1. Go to `chrome://extensions/`  
+  2. Find **Super Mario Bingo Overlay** and click **Details**  
+  3. Click **Extension options**  
+
+- **Via Toolbar menu**  
+  1. Click the Puzzle‑icon (Extensions) in your browser toolbar  
+  2. Find **Super Mario Bingo Overlay**  
+  3. Click the three‑dot menu → **Options**
+
+2. Show or hide Difficulty Labels
+
+On the Settings page you’ll see a toggle:
+
+> **Show Difficulty Labels**  ◯─|   
+
+- **Off** (default): no numbers appear on tiles.  
+- **On**: a small number representing the difficulty (1–25) appears in the bottom‑right of each bingo tile.  
+
+Your choice is saved automatically via `chrome.storage` and persists across browser restarts.
+ 
 
 Features:
 - **Replace tile text** with images (32 px height) defined in a JSON mapping.  
-- **Add colored badges** (e.g. `CASADE`, `SAND`, `LAKE`, `ALL`) to each tile based on its “kingdom.”  
+- **Add colored badges** (e.g. `CASADE`, `SAND`, `LAKE`, `ALL`) to each tile based on its “kingdom.”
+- **Toggleable difficulty labels**: Show or hide a small difficulty number (1–25) in the bottom‑right of each tile via the extension’s Settings.   
 - **“Load Images”** button lets you manually (re‑)apply the image/badge overlay.  
 
 Additional Notes:
