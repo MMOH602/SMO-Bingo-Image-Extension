@@ -83,10 +83,7 @@ function updateBoard() {
   // nur ausführen, wenn .board-cover wirklich verborgen ist
   const cover = document.querySelector('.board-cover');
   const isHidden = cover && window.getComputedStyle(cover).display === 'none';
-  if (!isHidden) {
-    // Board ist noch verdeckt, nichts tun
-    return;
-  }
+  if (!isHidden) return;
 
   if (!bingoMapping) return;
 
@@ -94,7 +91,6 @@ function updateBoard() {
     const td = document.getElementById("slot" + slotId);
     if (!td) continue;
 
-    // Innerview: die <div class="vertical-center text-container">
     const textDiv = td.querySelector(".vertical-center.text-container");
     if (!textDiv) continue;
 
@@ -102,26 +98,35 @@ function updateBoard() {
     const entry = bingoMapping[currentText];
     if (!entry) continue;
 
-    // a) Bild einfügen (falls entry.image existiert)
+    // a) Bild & Text
     if (entry.image) {
-  const imgSrc = chrome.runtime.getURL(entry.image);
-  textDiv.innerHTML = ""; // Alles leeren
-  
-  const img = document.createElement("img");
-  img.src = imgSrc;
-  textDiv.appendChild(img);
+      const imgSrc = chrome.runtime.getURL(entry.image);
+      textDiv.innerHTML = "";
+      const img = document.createElement("img");
+      img.src = imgSrc;
+      textDiv.appendChild(img);
+      if (entry.text) {
+        const textNode = document.createElement("div");
+        textNode.classList.add("text-overlay");
+        textNode.textContent = entry.text;
+        textDiv.appendChild(textNode);
+      }
+    }
 
-  if (entry.text) {
-    const textNode = document.createElement("div");
-    textNode.textContent = entry.text;
-    textNode.classList.add("text-overlay");
-    textDiv.appendChild(textNode);
-  }
-}
+    // b) Badge
+    addBadge(slotId, entry.kingdom);
 
-    // b) Badge hinzufügen (Kingdom aus dem Mapping-JSON)
-    const kingdom = entry.kingdom;
-    addBadge(slotId, kingdom);
+    // c) Difficulty unten links
+    // → Stelle sicher, dass td.style.position = 'relative' in addBadge ausgeführt wurde
+    if (entry.difficulty != null) {
+      // Wenn Label noch nicht existiert, hinzufügen
+      if (!td.querySelector(".difficulty-label")) {
+        const diffLabel = document.createElement("div");
+        diffLabel.className = "difficulty-label";
+        diffLabel.textContent = entry.difficulty;
+        td.appendChild(diffLabel);
+      }
+    }
   }
 }
 
