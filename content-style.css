@@ -68,3 +68,16 @@ td.square > .vertical-center.text-container {
   line-height: 1.2;
   margin-top: 48px; /* so bleibt das Bild zentriert und der Text  darunter */
 }
+
+/* Difficulty-Label unten rechts in jeder Kachel */
+.difficulty-label {
+  position: absolute;
+  bottom: 2px;
+  right: 4px;
+  font-size: 8px;
+  color: #7D7D7D;
+  font-family: sans-serif;
+  pointer-events: none;
+  z-index: 1;
+  text-shadow: 0 0 2px rgba(0,0,0,0.7);
+}
