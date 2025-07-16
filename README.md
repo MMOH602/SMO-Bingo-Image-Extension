@@ -9,7 +9,7 @@ How to install:
 
 Only Chrome and Edge have been tested but the extension should work in all Chromium‑based browsers (Chrome, Edge, Brave, Opera, Vivaldi) under Manifest V3. Trying to use it with Firefox results in major issues.
 
-1. Clone or download this repo.  
+1. Clone or download (Code -> Download ZIP) this repo.  
 2. Open your browser and navigate to its extensions page:  
    - Chrome/Edge: `chrome://extensions/`  
    - Opera: `opera://extensions/`  
