@@ -1,6 +1,26 @@
 // File: content-script.js
 
-console.log("🎉 Super Mario Bingo Extension aktiv");
+console.log("🎉 Super Mario Bingo Extension is active");
+
+let showDifficulty = false;
+
+// Lade die Preference vor allem anderen
+chrome.storage.sync.get({ showDifficulty: false }, prefs => {
+  showDifficulty = prefs.showDifficulty;
+  console.log("Show Difficulty Labels:", showDifficulty);
+  // Wenn das Mapping schon geladen ist, wende updateBoard evtl. erneut an:
+  if (bingoMapping) updateBoard();
+});
+
+// Optional: auf Änderungen reagieren (falls in Options-Tab umgeschaltet)
+chrome.storage.onChanged.addListener((changes, area) => {
+  if (area === 'sync' && 'showDifficulty' in changes) {
+    showDifficulty = changes.showDifficulty.newValue;
+    console.log("Show Difficulty changed:", showDifficulty);
+    updateBoard();
+  }
+});
+
 
 // ================================
 // 1) @font-face-Injektion für Bangers
@@ -29,9 +49,9 @@ async function loadMapping() {
   try {
     const response = await fetch(url);
     bingoMapping = await response.json();
-    console.log("Bingo-Mapping geladen", bingoMapping);
+    console.log("Loaded Bingo-Mapping", bingoMapping);
   } catch (e) {
-    console.error("Fehler beim Laden der Mapping-JSON:", e);
+    console.error("Error when loading Mapping-JSON:", e);
   }
 }
 
@@ -116,10 +136,8 @@ function updateBoard() {
     // b) Badge
     addBadge(slotId, entry.kingdom);
 
-    // c) Difficulty unten links
-    // → Stelle sicher, dass td.style.position = 'relative' in addBadge ausgeführt wurde
-    if (entry.difficulty != null) {
-      // Wenn Label noch nicht existiert, hinzufügen
+        // c) Difficulty unten rechts (nur wenn toggled on)
+    if (showDifficulty && entry.difficulty != null) {
       if (!td.querySelector(".difficulty-label")) {
         const diffLabel = document.createElement("div");
         diffLabel.className = "difficulty-label";
@@ -127,6 +145,7 @@ function updateBoard() {
         td.appendChild(diffLabel);
       }
     }
+
   }
 }
 
