@@ -1,0 +1,8 @@
+{
+  "Test Goal (Kingdom)": {
+    "kingdom": "Kingdom",
+    "image": "images/misc/invalid_image_path.png",
+    "difficulty": 1,
+    "text": "Test Goal"
+  }
+}
