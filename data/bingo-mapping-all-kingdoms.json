@@ -1,8 +1,1826 @@
 {
-  "Test Goal (Kingdom)": {
-    "kingdom": "Kingdom",
-    "image": "images/misc/invalid_image_path.png",
+  "6 Moons (Cap)": {
+    "kingdom": "Cap",
+    "image": "images/moons/power_moon.png",
     "difficulty": 1,
-    "text": "Test Goal"
+    "text": "6 Moons"
+  },
+  "4 Moons from sub-areas (Cap)": {
+    "kingdom": "Cap",
+    "image": "images/misc/sub_area.png",
+    "difficulty": 1,
+    "text": "4 Moons from sub‑areas"
+  },
+  "12 Moons (Cascade)": {
+    "kingdom": "Cascade",
+    "image": "images/moons/power_moon.png",
+    "difficulty": 1,
+    "text": "12 Moons"
+  },
+  "28 Moons (Sand)": {
+    "kingdom": "Sand",
+    "image": "images/moons/power_moon_sand.png",
+    "difficulty": 1,
+    "text": "28 Moons"
+  },
+  "16 Moons (Lake)": {
+    "kingdom": "Lake",
+    "image": "images/moons/power_moon_lake.png",
+    "difficulty": 1,
+    "text": "16 Moons"
+  },
+  "28 Moons (Wooded)": {
+    "kingdom": "Wooded",
+    "image": "images/moons/power_moon_wooded.png",
+    "difficulty": 1,
+    "text": "28 Moons"
+  },
+  "30 Moons (Metro)": {
+    "kingdom": "Metro",
+    "image": "images/moons/power_moon_metro.png",
+    "difficulty": 1,
+    "text": "30 Moons"
+  },
+  "18 Moons (Snow)": {
+    "kingdom": "Snow",
+    "image": "images/moons/power_moon_snow.png",
+    "difficulty": 1,
+    "text": "18 Moons"
+  },
+  "20 Moons (Seaside)": {
+    "kingdom": "Seaside",
+    "image": "images/moons/power_moon_seaside.png",
+    "difficulty": 1,
+    "text": "20 Moons"
+  },
+  "26 Moons (Luncheon)": {
+    "kingdom": "Luncheon",
+    "image": "images/moons/power_moon_luncheon.png",
+    "difficulty": 1,
+    "text": "26 Moons"
+  },
+  "12 Moons (Bowser's)": {
+    "kingdom": "Bowser's",
+    "image": "images/moons/power_moon_bowsers.png",
+    "difficulty": 1,
+    "text": "12 Moons"
+  },
+  "4 Moons (Moon)": {
+    "kingdom": "Moon",
+    "image": "images/moons/power_moon_moon.png",
+    "difficulty": 1,
+    "text": "4 Moons"
+  },
+
+  "25 Regional Coins (Cap)": {
+    "kingdom": "Cap",
+    "image": "images/regional_coins/regional_cap.png",
+    "difficulty": 2,
+    "text": "25 Regional Coins"
+  },
+  "35 Regional Coins (Cascade)": {
+    "kingdom": "Cascade",
+    "image": "images/regional_coins/regional_cascade.png",
+    "difficulty": 2,
+    "text": "35 Regional Coins"
+  },
+  "45 Regional Coins (Sand)": {
+    "kingdom": "Sand",
+    "image": "images/regional_coins/regional_sand.png",
+    "difficulty": 2,
+    "text": "45 Regional Coins"
+  },
+  "30 Regional Coins (Lake)": {
+    "kingdom": "Lake",
+    "image": "images/regional_coins/regional_lake.png",
+    "difficulty": 2,
+    "text": "30 Regional Coins"
+  },
+  "50 Regional Coins (Wooded)": {
+    "kingdom": "Wooded",
+    "image": "images/regional_coins/regional_wooded.png",
+    "difficulty": 2,
+    "text": "50 Regional Coins"
+  },
+  "30 Regional Coins (Lost)": {
+    "kingdom": "Lost",
+    "image": "images/regional_coins/regional_lost.png",
+    "difficulty": 2,
+    "text": "30 Regional Coins"
+  },
+  "45 Regional Coins (Metro)": {
+    "kingdom": "Metro",
+    "image": "images/regional_coins/regional_metro.png",
+    "difficulty": 2,
+    "text": "45 Regional Coins"
+  },
+  "30 Regional Coins (Snow)": {
+    "kingdom": "Snow",
+    "image": "images/regional_coins/regional_snow.png",
+    "difficulty": 2,
+    "text": "30 Regional Coins"
+  },
+  "40 Regional Coins (Seaside)": {
+    "kingdom": "Seaside",
+    "image": "images/regional_coins/regional_seaside.png",
+    "difficulty": 2,
+    "text": "40 Regional Coins"
+  },
+  "30 Regional Coins (Luncheon)": {
+    "kingdom": "Luncheon",
+    "image": "images/regional_coins/regional_luncheon.png",
+    "difficulty": 2,
+    "text": "30 Regional Coins"
+  },
+  "25 Regional Coins (Bowser's)": {
+    "kingdom": "Bowser's",
+    "image": "images/regional_coins/regional_bowsers.png",
+    "difficulty": 2,
+    "text": "25 Regional Coins"
+  },
+  "20 Regional Coins (Moon)": {
+    "kingdom": "Moon",
+    "image": "images/regional_coins/regional_moon.png",
+    "difficulty": 2,
+    "text": "20 Regional Coins"
+  },
+
+  "8 Moons (Cap)": {
+    "kingdom": "Cap",
+    "image": "images/moons/power_moon.png",
+    "difficulty": 3,
+    "text": "8 Moons"
+  },
+  "6 Moons from sub-areas (Cap)": {
+    "kingdom": "Cap",
+    "image": "images/misc/sub_area.png",
+    "difficulty": 3,
+    "text": "6 Moons from sub‑areas"
+  },
+  "14 Moons (Cascade)": {
+    "kingdom": "Cascade",
+    "image": "images/moons/power_moon.png",
+    "difficulty": 3,
+    "text": "14 Moons"
+  },
+  "30 Moons (Sand)": {
+    "kingdom": "Sand",
+    "image": "images/moons/power_moon_sand.png",
+    "difficulty": 3,
+    "text": "30 Moons"
+  },
+  "18 Moons (Lake)": {
+    "kingdom": "Lake",
+    "image": "images/moons/power_moon_lake.png",
+    "difficulty": 3,
+    "text": "18 Moons"
+  },
+  "30 Moons (Wooded)": {
+    "kingdom": "Wooded",
+    "image": "images/moons/power_moon_wooded.png",
+    "difficulty": 3,
+    "text": "30 Moons"
+  },
+  "32 Moons (Metro)": {
+    "kingdom": "Metro",
+    "image": "images/moons/power_moon_metro.png",
+    "difficulty": 3,
+    "text": "32 Moons"
+  },
+  "20 Moons (Snow)": {
+    "kingdom": "Snow",
+    "image": "images/moons/power_moon_snow.png",
+    "difficulty": 3,
+    "text": "20 Moons"
+  },
+  "22 Moons (Seaside)": {
+    "kingdom": "Seaside",
+    "image": "images/moons/power_moon_seaside.png",
+    "difficulty": 3,
+    "text": "22 Moons"
+  },
+  "28 Moons (Luncheon)": {
+    "kingdom": "Luncheon",
+    "image": "images/moons/power_moon_luncheon.png",
+    "difficulty": 3,
+    "text": "28 Moons"
+  },
+  "14 Moons (Bowser's)": {
+    "kingdom": "Bowser's",
+    "image": "images/moons/power_moon_bowsers.png",
+    "difficulty": 3,
+    "text": "14 Moons"
+  },
+  "6 Moons (Moon)": {
+    "kingdom": "Moon",
+    "image": "images/moons/power_moon_moon.png",
+    "difficulty": 3,
+    "text": "6 Moons"
+  },
+
+  "30 Regional Coins (Cap)": {
+    "kingdom": "Cap",
+    "image": "images/regional_coins/regional_cap.png",
+    "difficulty": 4,
+    "text": "30 Regional Coins"
+  },
+  "40 Regional Coins (Cascade)": {
+    "kingdom": "Cascade",
+    "image": "images/regional_coins/regional_cascade.png",
+    "difficulty": 4,
+    "text": "40 Regional Coins"
+  },
+  "50 Regional Coins (Sand)": {
+    "kingdom": "Sand",
+    "image": "images/regional_coins/regional_sand.png",
+    "difficulty": 4,
+    "text": "50 Regional Coins"
+  },
+  "35 Regional Coins (Lake)": {
+    "kingdom": "Lake",
+    "image": "images/regional_coins/regional_lake.png",
+    "difficulty": 4,
+    "text": "35 Regional Coins"
+  },
+  "55 Regional Coins (Wooded)": {
+    "kingdom": "Wooded",
+    "image": "images/regional_coins/regional_wooded.png",
+    "difficulty": 4,
+    "text": "55 Regional Coins"
+  },
+  "35 Regional Coins (Lost)": {
+    "kingdom": "Lost",
+    "image": "images/regional_coins/regional_lost.png",
+    "difficulty": 4,
+    "text": "35 Regional Coins"
+  },
+  "50 Regional Coins (Metro)": {
+    "kingdom": "Metro",
+    "image": "images/regional_coins/regional_metro.png",
+    "difficulty": 4,
+    "text": "50 Regional Coins"
+  },
+  "35 Regional Coins (Snow)": {
+    "kingdom": "Snow",
+    "image": "images/regional_coins/regional_snow.png",
+    "difficulty": 4,
+    "text": "35 Regional Coins"
+  },
+  "45 Regional Coins (Seaside)": {
+    "kingdom": "Seaside",
+    "image": "images/regional_coins/regional_seaside.png",
+    "difficulty": 4,
+    "text": "45 Regional Coins"
+  },
+  "35 Regional Coins (Luncheon)": {
+    "kingdom": "Luncheon",
+    "image": "images/regional_coins/regional_luncheon.png",
+    "difficulty": 4,
+    "text": "35 Regional Coins"
+  },
+  "30 Regional Coins (Bowser's)": {
+    "kingdom": "Bowser's",
+    "image": "images/regional_coins/regional_bowsers.png",
+    "difficulty": 4,
+    "text": "30 Regional Coins"
+  },
+  "25 Regional Coins (Moon)": {
+    "kingdom": "Moon",
+    "image": "images/regional_coins/regional_moon.png",
+    "difficulty": 4,
+    "text": "25 Regional Coins"
+  },
+
+  "10 Moons (Cap)": {
+    "kingdom": "Cap",
+    "image": "images/moons/power_moon.png",
+    "difficulty": 5,
+    "text": "10 Moons"
+  },
+  "16 Moons (Cascade)": {
+    "kingdom": "Cascade",
+    "image": "images/moons/power_moon.png",
+    "difficulty": 5,
+    "text": "16 Moons"
+  },
+  "4 Moons from sub-areas (Cascade)": {
+    "kingdom": "Cascade",
+    "image": "images/misc/sub_area.png",
+    "difficulty": 5,
+    "text": "4 Moons from sub‑areas"
+  },
+  "32 Moons (Sand)": {
+    "kingdom": "Sand",
+    "image": "images/moons/power_moon_sand.png",
+    "difficulty": 5,
+    "text": "32 Moons"
+  },
+  "20 Moons (Lake)": {
+    "kingdom": "Lake",
+    "image": "images/moons/power_moon_lake.png",
+    "difficulty": 5,
+    "text": "20 Moons"
+  },
+  "32 Moons (Wooded)": {
+    "kingdom": "Wooded",
+    "image": "images/moons/power_moon_wooded.png",
+    "difficulty": 5,
+    "text": "32 Moons"
+  },
+  "34 Moons (Metro)": {
+    "kingdom": "Metro",
+    "image": "images/moons/power_moon_metro.png",
+    "difficulty": 5,
+    "text": "34 Moons"
+  },
+  "22 Moons (Snow)": {
+    "kingdom": "Snow",
+    "image": "images/moons/power_moon_snow.png",
+    "difficulty": 5,
+    "text": "22 Moons"
+  },
+  "24 Moons (Seaside)": {
+    "kingdom": "Seaside",
+    "image": "images/moons/power_moon_seaside.png",
+    "difficulty": 5,
+    "text": "24 Moons"
+  },
+  "30 Moons (Luncheon)": {
+    "kingdom": "Luncheon",
+    "image": "images/moons/power_moon_luncheon.png",
+    "difficulty": 5,
+    "text": "30 Moons"
+  },
+  "16 Moons (Bowser's)": {
+    "kingdom": "Bowser's",
+    "image": "images/moons/power_moon_bowsers.png",
+    "difficulty": 5,
+    "text": "16 Moons"
+  },
+  "8 Moons (Moon)": {
+    "kingdom": "Moon",
+    "image": "images/moons/power_moon_moon.png",
+    "difficulty": 5,
+    "text": "8 Moons"
+  },
+
+  "35 Regional Coins (Cap)": {
+    "kingdom": "Cap",
+    "image": "images/regional_coins/regional_cap.png",
+    "difficulty": 6,
+    "text": "35 Regional Coins"
+  },
+  "45 Regional Coins (Cascade)": {
+    "kingdom": "Cascade",
+    "image": "images/regional_coins/regional_cascade.png",
+    "difficulty": 6,
+    "text": "45 Regional Coins"
+  },
+  "4 Checkpoints (Cascade)": {
+    "kingdom": "Cascade",
+    "image": "images/misc/checkpoint_flag.png",
+    "difficulty": 6,
+    "text": "4 Checkpoints"
+  },
+  "55 Regional Coins (Sand)": {
+    "kingdom": "Sand",
+    "image": "images/regional_coins/regional_sand.png",
+    "difficulty": 6,
+    "text": "55 Regional Coins"
+  },
+  "40 Regional Coins (Lake)": {
+    "kingdom": "Lake",
+    "image": "images/regional_coins/regional_lake.png",
+    "difficulty": 6,
+    "text": "40 Regional Coins"
+  },
+  "60 Regional Coins (Wooded)": {
+    "kingdom": "Wooded",
+    "image": "images/regional_coins/regional_wooded.png",
+    "difficulty": 6,
+    "text": "60 Regional Coins"
+  },
+  "40 Regional Coins (Lost)": {
+    "kingdom": "Lost",
+    "image": "images/regional_coins/regional_lost.png",
+    "difficulty": 6,
+    "text": "40 Regional Coins"
+  },
+  "55 Regional Coins (Metro)": {
+    "kingdom": "Metro",
+    "image": "images/regional_coins/regional_metro.png",
+    "difficulty": 6,
+    "text": "55 Regional Coins"
+  },
+  "40 Regional Coins (Snow)": {
+    "kingdom": "Snow",
+    "image": "images/regional_coins/regional_snow.png",
+    "difficulty": 6,
+    "text": "40 Regional Coins"
+  },
+  "50 Regional Coins (Seaside)": {
+    "kingdom": "Seaside",
+    "image": "images/regional_coins/regional_seaside.png",
+    "difficulty": 6,
+    "text": "50 Regional Coins"
+  },
+  "40 Regional Coins (Luncheon)": {
+    "kingdom": "Luncheon",
+    "image": "images/regional_coins/regional_luncheon.png",
+    "difficulty": 6,
+    "text": "40 Regional Coins"
+  },
+  "35 Regional Coins (Bowser's)": {
+    "kingdom": "Bowser's",
+    "image": "images/regional_coins/regional_bowsers.png",
+    "difficulty": 6,
+    "text": "35 Regional Coins"
+  },
+
+  "2 Checkpoints (Cap)": {
+    "kingdom": "Cap",
+    "image": "images/misc/checkpoint_flag.png",
+    "difficulty": 7,
+    "text": "2 Checkpoints"
+  },
+  "18 Moons (Cascade)": {
+    "kingdom": "Cascade",
+    "image": "images/moons/power_moon.png",
+    "difficulty": 7,
+    "text": "18 Moons"
+  },
+  "6 Moons from sub-areas (Cascade)": {
+    "kingdom": "Cascade",
+    "image": "images/misc/sub_area.png",
+    "difficulty": 7,
+    "text": "6 Moons from sub‑areas"
+  },
+  "34 Moons (Sand)": {
+    "kingdom": "Sand",
+    "image": "images/moons/power_moon_sand.png",
+    "difficulty": 7,
+    "text": "34 Moons"
+  },
+  "22 Moons (Lake)": {
+    "kingdom": "Lake",
+    "image": "images/moons/power_moon_lake.png",
+    "difficulty": 7,
+    "text": "22 Moons"
+  },
+  "34 Moons (Wooded)": {
+    "kingdom": "Wooded",
+    "image": "images/moons/power_moon_wooded.png",
+    "difficulty": 7,
+    "text": "34 Moons"
+  },
+  "36 Moons (Metro)": {
+    "kingdom": "Metro",
+    "image": "images/moons/power_moon_metro.png",
+    "difficulty": 7,
+    "text": "36 Moons"
+  },
+  "24 Moons (Snow)": {
+    "kingdom": "Snow",
+    "image": "images/moons/power_moon_snow.png",
+    "difficulty": 7,
+    "text": "24 Moons"
+  },
+  "26 Moons (Seaside)": {
+    "kingdom": "Seaside",
+    "image": "images/moons/power_moon_seaside.png",
+    "difficulty": 7,
+    "text": "26 Moons"
+  },
+  "32 Moons (Luncheon)": {
+    "kingdom": "Luncheon",
+    "image": "images/moons/power_moon_luncheon.png",
+    "difficulty": 7,
+    "text": "32 Moons"
+  },
+  "18 Moons (Bowser's)": {
+    "kingdom": "Bowser's",
+    "image": "images/moons/power_moon_bowsers.png",
+    "difficulty": 7,
+    "text": "18 Moons"
+  },
+  "10 Moons (Moon)": {
+    "kingdom": "Moon",
+    "image": "images/moons/power_moon_moon.png",
+    "difficulty": 7,
+    "text": "10 Moons"
+  },
+
+  "40 Regional Coins (Cap)": {
+    "kingdom": "Cap",
+    "image": "images/regional_coins/regional_cap.png",
+    "difficulty": 8,
+    "text": "40 Regional Coins"
+  },
+  "50 Regional Coins (Cascade)": {
+    "kingdom": "Cascade",
+    "image": "images/regional_coins/regional_cascade.png",
+    "difficulty": 8,
+    "text": "50 Regional Coins"
+  },
+  "60 Regional Coins (Sand)": {
+    "kingdom": "Sand",
+    "image": "images/regional_coins/regional_sand.png",
+    "difficulty": 8,
+    "text": "60 Regional Coins"
+  },
+  "45 Regional Coins (Lake)": {
+    "kingdom": "Lake",
+    "image": "images/regional_coins/regional_lake.png",
+    "difficulty": 8,
+    "text": "45 Regional Coins"
+  },
+  "65 Regional Coins (Wooded)": {
+    "kingdom": "Wooded",
+    "image": "images/regional_coins/regional_wooded.png",
+    "difficulty": 8,
+    "text": "65 Regional Coins"
+  },
+  "45 Regional Coins (Lost)": {
+    "kingdom": "Lost",
+    "image": "images/regional_coins/regional_lost.png",
+    "difficulty": 8,
+    "text": "45 Regional Coins"
+  },
+  "60 Regional Coins (Metro)": {
+    "kingdom": "Metro",
+    "image": "images/regional_coins/regional_metro.png",
+    "difficulty": 8,
+    "text": "60 Regional Coins"
+  },
+  "55 Regional Coins (Seaside)": {
+    "kingdom": "Seaside",
+    "image": "images/regional_coins/regional_seaside.png",
+    "difficulty": 8,
+    "text": "55 Regional Coins"
+  },
+  "45 Regional Coins (Luncheon)": {
+    "kingdom": "Luncheon",
+    "image": "images/regional_coins/regional_luncheon.png",
+    "difficulty": 8,
+    "text": "45 Regional Coins"
+  },
+  "40 Regional Coins (Bowser's)": {
+    "kingdom": "Bowser's",
+    "image": "images/regional_coins/regional_bowsers.png",
+    "difficulty": 8,
+    "text": "40 Regional Coins"
+  },
+  "30 Regional Coins (Moon)": {
+    "kingdom": "Moon",
+    "image": "images/regional_coins/regional_moon.png",
+    "difficulty": 8,
+    "text": "30 Regional Coins"
+  },
+  "145 Moons (Total)": {
+    "kingdom": "All",
+    "image": "images/moons/power_moon.png",
+    "difficulty": 8,
+    "text": "145 Moons"
+  },
+
+  "36 Moons (Sand)": {
+    "kingdom": "Sand",
+    "image": "images/moons/power_moon_sand.png",
+    "difficulty": 9,
+    "text": "36 Moons"
+  },
+  "4 Moons from sub-areas (Sand)": {
+    "kingdom": "Sand",
+    "image": "images/misc/sub_area.png",
+    "difficulty": 9,
+    "text": "4 Moons from sub‑areas"
+  },
+  "Moon Shards in the Sand (Sand)": {
+    "kingdom": "Sand",
+    "image": "images/moons/power_moon_sand.png",
+    "difficulty": 9,
+    "text": "Moon Shards in the Sand"
+  },
+  "24 Moons (Lake)": {
+    "kingdom": "Lake",
+    "image": "images/moons/power_moon_lake.png",
+    "difficulty": 9,
+    "text": "24 Moons"
+  },
+  "36 Moons (Wooded)": {
+    "kingdom": "Wooded",
+    "image": "images/moons/power_moon_wooded.png",
+    "difficulty": 9,
+    "text": "36 Moons"
+  },
+  "38 Moons (Metro)": {
+    "kingdom": "Metro",
+    "image": "images/moons/power_moon_metro.png",
+    "difficulty": 9,
+    "text": "38 Moons"
+  },
+  "20 Moons (Bowser's)": {
+    "kingdom": "Bowser's",
+    "image": "images/moons/power_moon_bowsers.png",
+    "difficulty": 9,
+    "text": "20 Moons"
+  },
+  "Capture both the Cactus and the Tree": {
+    "kingdom": "All",
+    "image": "images/captures/cactus_and_tree_captures.png",
+    "difficulty": 9,
+    "text": "Capture both the Cactus and the Tree"
+  },
+  "300 Total Regional Coins": {
+    "kingdom": "All",
+    "image": "images/regional_coins/regional_coins.png",
+    "difficulty": 9,
+    "text": "300 Total Regional Coins"
+  },
+  "3 Moons from Goombas": {
+    "kingdom": "All",
+    "image": "images/captures/goomba_capture.png",
+    "difficulty": 9,
+    "text": "3 Moons from Goombas"
+  },
+  "1 Moon from Seeds": {
+    "kingdom": "All",
+    "image": "images/misc/seed.png",
+    "difficulty": 9,
+    "text": "1 Moon from Seeds"
+  },
+  "All Regional Coins in 3 Kingdoms": {
+    "kingdom": "All",
+    "image": "images/regional_coins/regional_coins.png",
+    "difficulty": 9,
+    "text": "All Regional Coins in 3 Kingdoms"
+  },
+
+  "65 Regional Coins (Sand)": {
+    "kingdom": "Sand",
+    "image": "images/regional_coins/regional_sand.png",
+    "difficulty": 10,
+    "text": "65 Regional Coins"
+  },
+  "7 Checkpoints (Sand)": {
+    "kingdom": "Sand",
+    "image": "images/misc/checkpoint_flag.png",
+    "difficulty": 10,
+    "text": "7 Checkpoints"
+  },
+  "Call Jaxi from 5 Stands": {
+    "kingdom": "Sand",
+    "image": "images/misc/jaxi_stand.png",
+    "difficulty": 10,
+    "text": "Call Jaxi from 5 Stands"
+  },
+  "70 Regional Coins (Wooded)": {
+    "kingdom": "Wooded",
+    "image": "images/regional_coins/regional_wooded.png",
+    "difficulty": 10,
+    "text": "70 Regional Coins"
+  },
+  "65 Regional Coins (Metro)": {
+    "kingdom": "Metro",
+    "image": "images/regional_coins/regional_metro.png",
+    "difficulty": 10,
+    "text": "65 Regional Coins"
+  },
+  "60 Regional Coins (Seaside)": {
+    "kingdom": "Seaside",
+    "image": "images/regional_coins/regional_seaside.png",
+    "difficulty": 10,
+    "text": "60 Regional Coins"
+  },
+  "35 Regional Coins (Moon)": {
+    "kingdom": "Moon",
+    "image": "images/regional_coins/regional_moon.png",
+    "difficulty": 10,
+    "text": "35 Regional Coins"
+  },
+  "2 Moons from Slots": {
+    "kingdom": "All",
+    "image": "images/misc/tostarenan.png",
+    "difficulty": 10,
+    "text": "2 Moons from Slots"
+  },
+  "150 Moons (Total)": {
+    "kingdom": "All",
+    "image": "images/moons/power_moon.png",
+    "difficulty": 10,
+    "text": "150 Moons"
+  },
+  "8 Multi Moons": {
+    "kingdom": "All",
+    "image": "images/moons/multi_moon.png",
+    "difficulty": 10,
+    "text": "8 Multi Moons"
+  },
+  "2 Moons from Keys": {
+    "kingdom": "All",
+    "image": "images/misc/key.png",
+    "difficulty": 10,
+    "text": "2 Moons from Keys"
+  },
+  "Outfit-Door (Sand)": {
+    "kingdom": "Sand",
+    "image": "images/outfits/outfit_sand.png",
+    "difficulty": 10,
+    "text": "Dancing with new Friends"
+  },
+
+  "38 Moons (Sand)": {
+    "kingdom": "Sand",
+    "image": "images/moons/power_moon_sand.png",
+    "difficulty": 11,
+    "text": "38 Moons"
+  },
+  "6 Moons from sub-areas (Sand)": {
+    "kingdom": "Sand",
+    "image": "images/misc/sub_area.png",
+    "difficulty": 11,
+    "text": "6 Moons from sub‑areas"
+  },
+  "Koopa Trace-Walking (Sand)": {
+    "kingdom": "Sand",
+    "image": "images/misc/koopa_tracewalking.png",
+    "difficulty": 11,
+    "text": "Koopa Trace‑Walking"
+  },
+  "6 Moons from sub-areas (Wooded)": {
+    "kingdom": "Wooded",
+    "image": "images/misc/sub_area.png",
+    "difficulty": 11,
+    "text": "6 Moons from sub‑areas"
+  },
+  "40 Moons (Metro)": {
+    "kingdom": "Metro",
+    "image": "images/moons/power_moon_metro.png",
+    "difficulty": 11,
+    "text": "40 Moons"
+  },
+  "4 Moons from sub-areas (Luncheon)": {
+    "kingdom": "Luncheon",
+    "image": "images/misc/sub_area.png",
+    "difficulty": 11,
+    "text": "4 Moons from sub‑areas"
+  },
+  "325 Total Regional Coins": {
+    "kingdom": "All",
+    "image": "images/regional_coins/regional_coins.png",
+    "difficulty": 11,
+    "text": "325 Total Regional Coins"
+  },
+  "4 Moons from Goombas": {
+    "kingdom": "All",
+    "image": "images/captures/goomba_capture.png",
+    "difficulty": 11,
+    "text": "4 Moons from Goombas"
+  },
+  "World Peace Restored! (Wooded)": {
+    "kingdom": "Wooded",
+    "image": "images/moons/multi_moon_wooded.png",
+    "difficulty": 11,
+    "text": "World Peace Restored!"
+  },
+  "All Regional Coins in 4 Kingdoms": {
+    "kingdom": "All",
+    "image": "images/regional_coins/regional_coins.png",
+    "difficulty": 11,
+    "text": "All Regional Coins in 4 Kingdoms"
+  },
+  "1 Moon (Underground Moon Caves)": {
+    "kingdom": "Moon",
+    "image": "images/moons/power_moon_moon.png",
+    "difficulty": 11,
+    "text": "1 Moon Cave Moon"
+  },
+  "Seaside Kingdom: Sphynx Quiz Complete!": {
+    "kingdom": "Seaside",
+    "image": "images/misc/sphynx.png",
+    "difficulty": 11,
+    "text": "Seaside Kingdom: Sphynx Quiz Complete!"
+  },
+
+  "70 Regional Coins (Sand)": {
+    "kingdom": "Sand",
+    "image": "images/regional_coins/regional_sand.png",
+    "difficulty": 12,
+    "text": "70 Regional Coins"
+  },
+  "8 Checkpoints (Sand)": {
+    "kingdom": "Sand",
+    "image": "images/misc/checkpoint_flag.png",
+    "difficulty": 12,
+    "text": "8 Checkpoints"
+  },
+  "Call Jaxi from 6 Stands": {
+    "kingdom": "Sand",
+    "image": "images/misc/jaxi_stand.png",
+    "difficulty": 12,
+    "text": "Call Jaxi from 6 Stands"
+  },
+  "75 Regional Coins (Wooded)": {
+    "kingdom": "Wooded",
+    "image": "images/regional_coins/regional_wooded.png",
+    "difficulty": 12,
+    "text": "75 Regional Coins"
+  },
+  "7 Checkpoints (Metro)": {
+    "kingdom": "Metro",
+    "image": "images/misc/checkpoint_flag.png",
+    "difficulty": 12,
+    "text": "7 Checkpoints"
+  },
+  "65 Regional Coins (Seaside)": {
+    "kingdom": "Seaside",
+    "image": "images/regional_coins/regional_seaside.png",
+    "difficulty": 12,
+    "text": "65 Regional Coins"
+  },
+  "3 Moons from Slots": {
+    "kingdom": "All",
+    "image": "images/misc/tostarenan.png",
+    "difficulty": 12,
+    "text": "3 Moons from Slots"
+  },
+  "Look at 3 Hint Arts": {
+    "kingdom": "All",
+    "image": "images/misc/hint_art.png",
+    "difficulty": 12,
+    "text": "Look at 3 Hint Arts"
+  },
+  "155 Moons (Total)": {
+    "kingdom": "All",
+    "image": "images/moons/power_moon.png",
+    "difficulty": 12,
+    "text": "155 Moons"
+  },
+  "9 Multi Moons": {
+    "kingdom": "All",
+    "image": "images/moons/multi_moon.png",
+    "difficulty": 12,
+    "text": "9 Multi Moons"
+  },
+  "3 Moons from Keys": {
+    "kingdom": "All",
+    "image": "images/misc/key.png",
+    "difficulty": 12,
+    "text": "3 Moons from Keys"
+  },
+  "15 Story Moons (excl. Multi Moons)": {
+    "kingdom": "All",
+    "image": "images/moons/power_moon.png",
+    "difficulty": 12,
+    "text": "15 Story Moons (excl. Multi Moons)"
+  },
+
+  "40 Moons (Sand)": {
+    "kingdom": "Sand",
+    "image": "images/moons/power_moon_sand.png",
+    "difficulty": 13,
+    "text": "40 Moons"
+  },
+  "8 Moons from sub-areas (Sand)": {
+    "kingdom": "Sand",
+    "image": "images/misc/sub_area.png",
+    "difficulty": 13,
+    "text": "8 Moons from sub‑areas"
+  },
+  "Herding Sheep in the Dunes (Sand)": {
+    "kingdom": "Sand",
+    "image": "images/misc/sheep.png",
+    "difficulty": 13,
+    "text": "Herding Sheep in the Dunes"
+  },
+  "8 Moons from sub-areas (Wooded)": {
+    "kingdom": "Wooded",
+    "image": "images/misc/sub_area.png",
+    "difficulty": 13,
+    "text": "8 Moons from sub‑areas"
+  },
+  "42 Moons (Metro)": {
+    "kingdom": "Metro",
+    "image": "images/moons/power_moon_metro.png",
+    "difficulty": 13,
+    "text": "42 Moons"
+  },
+  "8 Moons from sub-areas (Metro)": {
+    "kingdom": "Metro",
+    "image": "images/misc/sub_area.png",
+    "difficulty": 13,
+    "text": "8 Moons from sub‑areas"
+  },
+  "6 Moons from sub-areas (Luncheon)": {
+    "kingdom": "Luncheon",
+    "image": "images/misc/sub_area.png",
+    "difficulty": 13,
+    "text": "6 Moons from sub‑areas"
+  },
+  "30 Moons from sub-areas (Total)": {
+    "kingdom": "All",
+    "image": "images/misc/sub_area.png",
+    "difficulty": 13,
+    "text": "30 Moons from sub‑areas"
+  },
+  "350 Total Regional Coins": {
+    "kingdom": "All",
+    "image": "images/regional_coins/regional_coins.png",
+    "difficulty": 13,
+    "text": "350 Total Regional Coins"
+  },
+  "Outfit-Door (Wooded)": {
+    "kingdom": "Wooded",
+    "image": "images/outfits/outfit_wooded.png",
+    "difficulty": 13,
+    "text": "Exploring for Treasure"
+  },
+  "2 Moons (Underground Moon Caves)": {
+    "kingdom": "Moon",
+    "image": "images/moons/power_moon_moon.png",
+    "difficulty": 13,
+    "text": "2 Moon Cave Moons"
+  },
+  "Catch the Rabbit! (Bowser's)": {
+    "kingdom": "Bowser's",
+    "image": "images/misc/rabbit.png",
+    "difficulty": 13,
+    "text": "Caught Hopping at Bowser's Castle!"
+  },
+
+  "9 Checkpoints (Sand)": {
+    "kingdom": "Sand",
+    "image": "images/misc/checkpoint_flag.png",
+    "difficulty": 14,
+    "text": "9 Checkpoints"
+  },
+  "Call Jaxi from 7 Stands": {
+    "kingdom": "Sand",
+    "image": "images/misc/jaxi_stand.png",
+    "difficulty": 14,
+    "text": "Call Jaxi from 7 Stands"
+  },
+  "4 Moons from sub-areas (Lake)": {
+    "kingdom": "Lake",
+    "image": "images/misc/sub_area.png",
+    "difficulty": 14,
+    "text": "4 Moons from sub‑areas"
+  },
+  "4 Moons (Deep Woods)": {
+    "kingdom": "Wooded",
+    "image": "images/moons/power_moon_wooded.png",
+    "difficulty": 14,
+    "text": "4 Deep Woods Moons"
+  },
+  "8 Checkpoints (Metro)": {
+    "kingdom": "Metro",
+    "image": "images/misc/checkpoint_flag.png",
+    "difficulty": 14,
+    "text": "8 Checkpoints"
+  },
+  "70 Regional Coins (Seaside)": {
+    "kingdom": "Seaside",
+    "image": "images/regional_coins/regional_seaside.png",
+    "difficulty": 14,
+    "text": "70 Regional Coins"
+  },
+  "2 Moons from sub-areas (Bowser's)": {
+    "kingdom": "Bowser's",
+    "image": "images/misc/sub_area.png",
+    "difficulty": 14,
+    "text": "2 Moons from sub‑areas"
+  },
+  "Look at 4 Hint Arts": {
+    "kingdom": "All",
+    "image": "images/misc/hint_art.png",
+    "difficulty": 14,
+    "text": "Look at 4 Hint Arts"
+  },
+  "3 Moons from Wooden Crates": {
+    "kingdom": "All",
+    "image": "images/misc/crate.png",
+    "difficulty": 14,
+    "text": "3 Moons from Wooden Crates"
+  },
+  "160 Moons (Total)": {
+    "kingdom": "All",
+    "image": "images/moons/power_moon.png",
+    "difficulty": 14,
+    "text": "160 Moons"
+  },
+  "Outfit-Door (Seaside)": {
+    "kingdom": "Seaside",
+    "image": "images/outfits/outfit_seaside.png",
+    "difficulty": 14,
+    "text": "A Relaxing Dance"
+  },
+  "Madame Broode Defeated! (Moon)": {
+    "kingdom": "Moon",
+    "image": "images/misc/madame_broode.png",
+    "difficulty": 14,
+    "text": "Madame Broode Defeated!"
+  },
+
+  "42 Moons (Sand)": {
+    "kingdom": "Sand",
+    "image": "images/moons/power_moon_sand.png",
+    "difficulty": 15,
+    "text": "42 Moons"
+  },
+  "Ice Cave Treasure-Moon (Sand)": {
+    "kingdom": "Sand",
+    "image": "images/moons/power_moon_sand.png",
+    "difficulty": 15,
+    "text": "Ice Cave Treasure"
+  },
+  "10 Moons from sub-areas (Wooded)": {
+    "kingdom": "Wooded",
+    "image": "images/misc/sub_area.png",
+    "difficulty": 15,
+    "text": "10 Moons from sub‑areas"
+  },
+  "10 Moons from sub-areas (Metro)": {
+    "kingdom": "Metro",
+    "image": "images/misc/sub_area.png",
+    "difficulty": 15,
+    "text": "10 Moons from sub‑areas"
+  },
+  "8 Moons from sub-areas (Luncheon)": {
+    "kingdom": "Luncheon",
+    "image": "images/misc/sub_area.png",
+    "difficulty": 15,
+    "text": "8 Moons from sub‑areas"
+  },
+  "1 Moon from Lakitu-Fishing": {
+    "kingdom": "All",
+    "image": "images/captures/lakitu_capture.png",
+    "difficulty": 15,
+    "text": "1 Moon from Lakitu‑Fishing"
+  },
+  "32 Moons from sub-areas (Total)": {
+    "kingdom": "All",
+    "image": "images/misc/sub_area.png",
+    "difficulty": 15,
+    "text": "32 Moons from sub‑areas"
+  },
+  "6 Stickers": {
+    "kingdom": "All",
+    "image": "images/misc/sticker.png",
+    "difficulty": 15,
+    "text": "6 Stickers"
+  },
+  "375 Total Regional Coins": {
+    "kingdom": "All",
+    "image": "images/regional_coins/regional_coins.png",
+    "difficulty": 15,
+    "text": "375 Total Regional Coins"
+  },
+  "World Peace Restored! (Seaside)": {
+    "kingdom": "Seaside",
+    "image": "images/moons/multi_moon_seaside.png",
+    "difficulty": 15,
+    "text": "World Peace Restored!"
+  },
+  "8 Unique Life-Up Hearts (excl. Shops)": {
+    "kingdom": "All",
+    "image": "images/misc/life_up_heart.png",
+    "difficulty": 15,
+    "text": "8 Unique Life-Up Hearts (excl. Shops)"
+  },
+  "Outfit-Door (Snow)": {
+    "kingdom": "Snow",
+    "image": "images/outfits/outfit_snow.png",
+    "difficulty": 15,
+    "text": "Moon Shards in the Cold Room"
+  },
+
+  "5 Checkpoints (Lake)": {
+    "kingdom": "Lake",
+    "image": "images/misc/checkpoint_flag.png",
+    "difficulty": 16,
+    "text": "5 Checkpoints"
+  },
+  "6 Checkpoints (Wooded)": {
+    "kingdom": "Wooded",
+    "image": "images/misc/checkpoint_flag.png",
+    "difficulty": 16,
+    "text": "6 Checkpoints"
+  },
+  "5 Moons (Deep Woods)": {
+    "kingdom": "Wooded",
+    "image": "images/moons/power_moon_wooded.png",
+    "difficulty": 16,
+    "text": "5 Deep Woods Moons"
+  },
+  "9 Checkpoints (Metro)": {
+    "kingdom": "Metro",
+    "image": "images/misc/checkpoint_flag.png",
+    "difficulty": 16,
+    "text": "9 Checkpoints"
+  },
+  "Uncork 3 Fountains (Seaside)": {
+    "kingdom": "Seaside",
+    "image": "images/misc/groundpound_switch.png",
+    "difficulty": 16,
+    "text": "Uncork 3 Fountains"
+  },
+  "4 Moons from sub-areas (Bowser's)": {
+    "kingdom": "Bowser's",
+    "image": "images/misc/sub_area.png",
+    "difficulty": 16,
+    "text": "4 Moons from sub‑areas"
+  },
+  "Purchase 8 Hats": {
+    "kingdom": "All",
+    "image": "images/outfits/hat.png",
+    "difficulty": 16,
+    "text": "Purchase 8 Hats"
+  },
+  "Look at 5 Hint Arts": {
+    "kingdom": "All",
+    "image": "images/misc/hint_art.png",
+    "difficulty": 16,
+    "text": "Look at 5 Hint Arts"
+  },
+  "4 Moons from Wooden Crates": {
+    "kingdom": "All",
+    "image": "images/misc/crate.png",
+    "difficulty": 16,
+    "text": "4 Moons from Wooden Crates"
+  },
+  "World Peace in 5 Kingdoms (excl. Cap, Cloud, Lost, Moon)": {
+    "kingdom": "All",
+    "image": "images/moons/multi_moon.png",
+    "difficulty": 16,
+    "text": "World Peace in 5 Kingdoms"
+  },
+  "3 Moons (Underground Moon Caves)": {
+    "kingdom": "Moon",
+    "image": "images/moons/power_moon_moon.png",
+    "difficulty": 16,
+    "text": "3 Moon Cave Moons"
+  },
+  "Tostarena-Tourist in the Metro Kingdom!": {
+    "kingdom": "Metro",
+    "image": "images/misc/tostarenan.png",
+    "difficulty": 16,
+    "text": "Tostarena-Tourist in the Metro Kingdom!"
+  },
+
+  "9 Moons from Nuts": {
+    "kingdom": "Wooded",
+    "image": "images/misc/nut.png",
+    "difficulty": 17,
+    "text": "9 Moons from Nuts"
+  },
+  "Goomba Picture-Match (Cloud)": {
+    "kingdom": "Cloud",
+    "image": "images/captures/goomba_picture_match.png",
+    "difficulty": 17,
+    "text": "Goomba Picture-Match"
+  },
+  "3 Checkpoints (Lost)": {
+    "kingdom": "Lost",
+    "image": "images/misc/checkpoint_flag.png",
+    "difficulty": 17,
+    "text": "3 Checkpoints"
+  },
+  "12 Moons from sub-areas (Metro)": {
+    "kingdom": "Metro",
+    "image": "images/misc/sub_area.png",
+    "difficulty": 17,
+    "text": "12 Moons from sub‑areas"
+  },
+  "2 Moons from Lakitu-Fishing": {
+    "kingdom": "All",
+    "image": "images/captures/lakitu_capture.png",
+    "difficulty": 17,
+    "text": "2 Moons from Lakitu‑Fishing"
+  },
+  "34 Moons from sub-areas (Total)": {
+    "kingdom": "All",
+    "image": "images/misc/sub_area.png",
+    "difficulty": 17,
+    "text": "34 Moons from sub‑areas"
+  },
+  "7 Stickers": {
+    "kingdom": "All",
+    "image": "images/misc/sticker.png",
+    "difficulty": 17,
+    "text": "7 Stickers"
+  },
+  "Purchase 8 Souvenirs": {
+    "kingdom": "All",
+    "image": "images/misc/souvenir.png",
+    "difficulty": 17,
+    "text": "Purchase 8 Souvenirs"
+  },
+  "7 Timer Challenges": {
+    "kingdom": "All",
+    "image": "images/misc/timer_challenge.png",
+    "difficulty": 17,
+    "text": "7 Timer Challenges"
+  },
+  "26 Unique Captures": {
+    "kingdom": "All",
+    "image": "images/captures/captures.png",
+    "difficulty": 17,
+    "text": "26 Unique Captures"
+  },
+  "400 Total Regional Coins": {
+    "kingdom": "All",
+    "image": "images/regional_coins/regional_coins.png",
+    "difficulty": 17,
+    "text": "400 Total Regional Coins"
+  },
+  "10 Unique Life-Up Hearts (excl. Shops)": {
+    "kingdom": "All",
+    "image": "images/misc/life_up_heart.png",
+    "difficulty": 17,
+    "text": "10 Unique Life-Up Hearts (excl. Shops)"
+  },
+
+  "Puzzle Room Solved! (Lake)": {
+    "kingdom": "Lake",
+    "image": "images/captures/puzzle_capture.png",
+    "difficulty": 18,
+    "text": "A Successful Repair Job"
+  },
+  "7 Checkpoints (Wooded)": {
+    "kingdom": "Wooded",
+    "image": "images/misc/checkpoint_flag.png",
+    "difficulty": 18,
+    "text": "7 Checkpoints"
+  },
+  "6 Moons (Deep Woods)": {
+    "kingdom": "Wooded",
+    "image": "images/moons/power_moon_wooded.png",
+    "difficulty": 18,
+    "text": "6 Deep Woods Moons"
+  },
+  "RC Car: Race Complete! (Metro)": {
+    "kingdom": "Metro",
+    "image": "images/captures/rc_car_capture.png",
+    "difficulty": 18,
+    "text": "RC Car: Race Complete!"
+  },
+  "Uncork 4 Fountains (Seaside)": {
+    "kingdom": "Seaside",
+    "image": "images/misc/groundpound_switch.png",
+    "difficulty": 18,
+    "text": "Uncork 4 Fountains"
+  },
+  "Purchase 9 Hats": {
+    "kingdom": "All",
+    "image": "images/outfits/hat.png",
+    "difficulty": 18,
+    "text": "Purchase 9 Hats"
+  },
+  "Purchase 8 Full Costume Sets": {
+    "kingdom": "All",
+    "image": "images/outfits/wardrobe.png",
+    "difficulty": 18,
+    "text": "Purchase 8 Full Costume Sets"
+  },
+  "9 Treasure Chest Moons": {
+    "kingdom": "All",
+    "image": "images/misc/treasure_chest.png",
+    "difficulty": 18,
+    "text": "9 Treasure Chest Moons"
+  },
+  "World Peace Restored! (Snow)": {
+    "kingdom": "Snow",
+    "image": "images/moons/multi_moon_snow.png",
+    "difficulty": 18,
+    "text": "World Peace Restored!"
+  },
+  "World Peace in 6 Kingdoms (excl. Cap, Cloud, Lost, Moon)": {
+    "kingdom": "All",
+    "image": "images/moons/multi_moon.png",
+    "difficulty": 18,
+    "text": "World Peace in 6 Kingdoms"
+  },
+  "17 Story Moons (excl. Multi Moons)": {
+    "kingdom": "All",
+    "image": "images/moons/power_moon.png",
+    "difficulty": 18,
+    "text": "17 Story Moons (excl. Multi Moons)"
+  },
+  "2 Moon from Seeds": {
+    "kingdom": "All",
+    "image": "images/misc/seed.png",
+    "difficulty": 18,
+    "text": "2 Moon from Seeds"
+  },
+
+  "10 Moons from Nuts": {
+    "kingdom": "All",
+    "image": "images/misc/nut.png",
+    "difficulty": 19,
+    "text": "10 Moons from Nuts"
+  },
+  "16 Moons (Lost)": {
+    "kingdom": "Lost",
+    "image": "images/moons/power_moon.png",
+    "difficulty": 19,
+    "text": "16 Moons"
+  },
+  "Catch the Rabbit! (Lost)": {
+    "kingdom": "Lost",
+    "image": "images/misc/rabbit.png",
+    "difficulty": 19,
+    "text": "Caught Hopping in the Jungle!"
+  },
+  "2 Checkpoints (Snow)": {
+    "kingdom": "Snow",
+    "image": "images/misc/checkpoint_flag.png",
+    "difficulty": 19,
+    "text": "2 Checkpoints"
+  },
+  "5 Checkpoints (Luncheon)": {
+    "kingdom": "Luncheon",
+    "image": "images/misc/checkpoint_flag.png",
+    "difficulty": 19,
+    "text": "5 Checkpoints"
+  },
+  "36 Moons from sub-areas (Total)": {
+    "kingdom": "All",
+    "image": "images/misc/sub_area.png",
+    "difficulty": 19,
+    "text": "36 Moons from sub‑areas"
+  },
+  "8 Stickers": {
+    "kingdom": "All",
+    "image": "images/misc/sticker.png",
+    "difficulty": 19,
+    "text": "8 Stickers"
+  },
+  "Purchase 10 Souvenirs": {
+    "kingdom": "All",
+    "image": "images/misc/souvenir.png",
+    "difficulty": 19,
+    "text": "Purchase 10 Souvenirs"
+  },
+  "8 Timer Challenges": {
+    "kingdom": "All",
+    "image": "images/misc/timer_challenge.png",
+    "difficulty": 19,
+    "text": "8 Timer Challenges"
+  },
+  "7 Moons from 8-bit Sections": {
+    "kingdom": "All",
+    "image": "images/moons/8bit_moon.png",
+    "difficulty": 19,
+    "text": "7 Moons from 8‑bit Sections"
+  },
+  "Purchase 8 Moons": {
+    "kingdom": "All",
+    "image": "images/moons/purchase_moon.png",
+    "difficulty": 19,
+    "text": "Purchase 8 Moons"
+  },
+  "28 Unique Captures": {
+    "kingdom": "All",
+    "image": "images/captures/captures.png",
+    "difficulty": 19,
+    "text": "28 Unique Captures"
+  },
+
+  "Plant 1 Seed (Lake)": {
+    "kingdom": "Lake",
+    "image": "images/misc/seed.png",
+    "difficulty": 20,
+    "text": "Plant 1 Seed"
+  },
+  "8 Checkpoints (Wooded)": {
+    "kingdom": "Wooded",
+    "image": "images/misc/checkpoint_flag.png",
+    "difficulty": 20,
+    "text": "8 Checkpoints"
+  },
+  "7 Moons (Deep Woods)": {
+    "kingdom": "Wooded",
+    "image": "images/moons/power_moon_wooded.png",
+    "difficulty": 20,
+    "text": "7 Deep Woods Moons"
+  },
+  "Jump-Rope Hero! (Metro)": {
+    "kingdom": "Metro",
+    "image": "images/misc/ranking_board.png",
+    "difficulty": 20,
+    "text": "Jump‑Rope Hero!"
+  },
+  "7 Checkpoints (Seaside)": {
+    "kingdom": "Seaside",
+    "image": "images/misc/checkpoint_flag.png",
+    "difficulty": 20,
+    "text": "7 Checkpoints"
+  },
+  "Purchase 10 Hats": {
+    "kingdom": "All",
+    "image": "images/outfits/hat.png",
+    "difficulty": 20,
+    "text": "Purchase 10 Hats"
+  },
+  "3 Warp-Painting Moons": {
+    "kingdom": "All",
+    "image": "images/misc/warp_painting.png",
+    "difficulty": 20,
+    "text": "3 Warp‑Painting Moons"
+  },
+  "Purchase 9 Full Costume Sets": {
+    "kingdom": "All",
+    "image": "images/outfits/wardrobe.png",
+    "difficulty": 20,
+    "text": "Purchase 9 Full Costume Sets"
+  },
+  "6 Moons from Music Notes": {
+    "kingdom": "All",
+    "image": "images/misc/notes.png",
+    "difficulty": 20,
+    "text": "6 Moons from Music Notes"
+  },
+  "11 Treasure Chest Moons": {
+    "kingdom": "All",
+    "image": "images/misc/treasure_chest.png",
+    "difficulty": 20,
+    "text": "11 Treasure Chest Moons"
+  },
+  "Plant 5 Seeds (Total)": {
+    "kingdom": "All",
+    "image": "images/misc/seed.png",
+    "difficulty": 20,
+    "text": "Plant 5 Seeds"
+  },
+  "World Peace Restored! (Sand)": {
+    "kingdom": "Sand",
+    "image": "images/moons/multi_moon_sand.png",
+    "difficulty": 20,
+    "text": "World Peace Restored!"
+  },
+
+  "11 Moons from Nuts": {
+    "kingdom": "Wooded",
+    "image": "images/misc/nut.png",
+    "difficulty": 21,
+    "text": "11 Moons from Nuts"
+  },
+  "18 Moons (Lost)": {
+    "kingdom": "Lost",
+    "image": "images/moons/power_moon.png",
+    "difficulty": 21,
+    "text": "18 Moons"
+  },
+  "4 Barrier-Moons (Snow)": {
+    "kingdom": "Snow",
+    "image": "images/moons/power_moon_snow.png",
+    "difficulty": 21,
+    "text": "4 Barrier‑Moons"
+  },
+  "4 Moons from sub-areas (Seaside)": {
+    "kingdom": "Seaside",
+    "image": "images/misc/sub_area.png",
+    "difficulty": 21,
+    "text": "4 Moons from sub‑areas"
+  },
+  "6 Checkpoints (Luncheon)": {
+    "kingdom": "Luncheon",
+    "image": "images/misc/checkpoint_flag.png",
+    "difficulty": 21,
+    "text": "6 Checkpoints"
+  },
+  "38 Moons from sub-areas (Total)": {
+    "kingdom": "All",
+    "image": "images/misc/sub_area.png",
+    "difficulty": 21,
+    "text": "38 Moons from sub‑areas"
+  },
+  "9 Stickers": {
+    "kingdom": "All",
+    "image": "images/misc/sticker.png",
+    "difficulty": 21,
+    "text": "9 Stickers"
+  },
+  "Purchase 12 Souvenirs": {
+    "kingdom": "All",
+    "image": "images/misc/souvenir.png",
+    "difficulty": 21,
+    "text": "Purchase 12 Souvenirs"
+  },
+  "9 Timer Challenges": {
+    "kingdom": "All",
+    "image": "images/misc/timer_challenge.png",
+    "difficulty": 21,
+    "text": "9 Timer Challenges"
+  },
+  "6 Captain Toad Moons": {
+    "kingdom": "All",
+    "image": "images/misc/captain_toad.png",
+    "difficulty": 21,
+    "text": "6 Captain Toad Moons"
+  },
+  "9 Moons from 8-bit Sections": {
+    "kingdom": "All",
+    "image": "images/moons/8bit_moon.png",
+    "difficulty": 21,
+    "text": "9 Moons from 8‑bit Sections"
+  },
+  "6 Moons from Moon Shards": {
+    "kingdom": "All",
+    "image": "images/misc/moon_shard.png",
+    "difficulty": 21,
+    "text": "6 Moons from Moon Shards"
+  },
+
+  "Catch the Rabbit! (Metro)": {
+    "kingdom": "Metro",
+    "image": "images/misc/rabbit.png",
+    "difficulty": 22,
+    "text": "Caught Hopping on a Building!"
+  },
+  "2 Moons from sub-areas (Snow)": {
+    "kingdom": "Snow",
+    "image": "images/misc/sub_area.png",
+    "difficulty": 22,
+    "text": "2 Moons from sub‑areas"
+  },
+  "8 Checkpoints (Seaside)": {
+    "kingdom": "Seaside",
+    "image": "images/misc/checkpoint_flag.png",
+    "difficulty": 22,
+    "text": "8 Checkpoints"
+  },
+  "2 Moons from Golden Turnips": {
+    "kingdom": "Luncheon",
+    "image": "images/misc/turnip.png",
+    "difficulty": 22,
+    "text": "2 Moons from Golden Turnips"
+  },
+  "9 Checkpoints (Bowser's)": {
+    "kingdom": "Bowser's",
+    "image": "images/misc/checkpoint_flag.png",
+    "difficulty": 22,
+    "text": "9 Checkpoints"
+  },
+  "4 Warp-Painting Moons": {
+    "kingdom": "All",
+    "image": "images/misc/warp_painting.png",
+    "difficulty": 22,
+    "text": "4 Warp‑Painting Moons"
+  },
+  "Purchase 10 Full Costume Sets": {
+    "kingdom": "All",
+    "image": "images/outfits/wardrobe.png",
+    "difficulty": 22,
+    "text": "Purchase 10 Full Costume Sets"
+  },
+  "7 Moons from Music Notes": {
+    "kingdom": "All",
+    "image": "images/misc/notes.png",
+    "difficulty": 22,
+    "text": "7 Moons from Music Notes"
+  },
+  "13 Treasure Chest Moons": {
+    "kingdom": "All",
+    "image": "images/misc/treasure_chest.png",
+    "difficulty": 22,
+    "text": "13 Treasure Chest Moons"
+  },
+  "2 Moons from Hint Art": {
+    "kingdom": "All",
+    "image": "images/misc/hint_art.png",
+    "difficulty": 22,
+    "text": "2 Moons from Hint Art"
+  },
+  "Plant 6 Seeds (Total)": {
+    "kingdom": "All",
+    "image": "images/misc/seed.png",
+    "difficulty": 22,
+    "text": "Plant 6 Seeds"
+  },
+  "World Peace Restored! (Metro)": {
+    "kingdom": "Metro",
+    "image": "images/moons/multi_moon_metro.png",
+    "difficulty": 22,
+    "text": "World Peace Restored!"
+  },
+
+  "20 Moons (Lost)": {
+    "kingdom": "Lost",
+    "image": "images/moons/power_moon.png",
+    "difficulty": 23,
+    "text": "20 Moons"
+  },
+  "Catch the Rabbit! (Snow)": {
+    "kingdom": "Snow",
+    "image": "images/misc/rabbit.png",
+    "difficulty": 23,
+    "text": "Caught Hopping in the Snow!"
+  },
+  "6 Moons from sub-areas (Seaside)": {
+    "kingdom": "Seaside",
+    "image": "images/misc/sub_area.png",
+    "difficulty": 23,
+    "text": "6 Moons from sub‑areas"
+  },
+  "7 Checkpoints (Luncheon)": {
+    "kingdom": "Luncheon",
+    "image": "images/misc/checkpoint_flag.png",
+    "difficulty": 23,
+    "text": "7 Checkpoints"
+  },
+  "40 Moons from sub-areas (Total)": {
+    "kingdom": "All",
+    "image": "images/misc/sub_area.png",
+    "difficulty": 23,
+    "text": "40 Moons from sub‑areas"
+  },
+  "10 Timer Challenges": {
+    "kingdom": "All",
+    "image": "images/misc/timer_challenge.png",
+    "difficulty": 23,
+    "text": "10 Timer Challenges"
+  },
+  "7 Captain Toad Moons": {
+    "kingdom": "All",
+    "image": "images/misc/captain_toad.png",
+    "difficulty": 23,
+    "text": "7 Captain Toad Moons"
+  },
+  "11 Moons from 8-bit Sections": {
+    "kingdom": "All",
+    "image": "images/moons/8bit_moon.png",
+    "difficulty": 23,
+    "text": "11 Moons from 8‑bit Sections"
+  },
+  "7 Moons from Moon Shards": {
+    "kingdom": "All",
+    "image": "images/misc/moon_shard.png",
+    "difficulty": 23,
+    "text": "7 Moons from Moon Shards"
+  },
+  "Purchase 9 Moons": {
+    "kingdom": "All",
+    "image": "images/moons/purchase_moon.png",
+    "difficulty": 23,
+    "text": "Purchase 9 Moons"
+  },
+  "30 Unique Captures": {
+    "kingdom": "All",
+    "image": "images/captures/captures.png",
+    "difficulty": 23,
+    "text": "30 Unique Captures"
+  },
+  "425 Total Regional Coins": {
+    "kingdom": "All",
+    "image": "images/regional_coins/regional_coins.png",
+    "difficulty": 23,
+    "text": "425 Total Regional Coins"
+  },
+
+  "Koopa Trace-Walking (Snow)": {
+    "kingdom": "Snow",
+    "image": "images/misc/koopa_tracewalking.png",
+    "difficulty": 24,
+    "text": "Koopa Trace‑Walking"
+  },
+  "9 Checkpoints (Seaside)": {
+    "kingdom": "Seaside",
+    "image": "images/misc/checkpoint_flag.png",
+    "difficulty": 24,
+    "text": "9 Checkpoints"
+  },
+  "3 Moons from Golden Turnips": {
+    "kingdom": "Luncheon",
+    "image": "images/misc/turnip.png",
+    "difficulty": 24,
+    "text": "3 Moons from Golden Turnips"
+  },
+  "10 Checkpoints (Bowser's)": {
+    "kingdom": "Bowser's",
+    "image": "images/misc/checkpoint_flag.png",
+    "difficulty": 24,
+    "text": "10 Checkpoints"
+  },
+  "5 Warp-Painting Moons": {
+    "kingdom": "All",
+    "image": "images/misc/warp_painting.png",
+    "difficulty": 24,
+    "text": "5 Warp‑Painting Moons"
+  },
+  "Purchase 11 Full Costume Sets": {
+    "kingdom": "All",
+    "image": "images/outfits/wardrobe.png",
+    "difficulty": 24,
+    "text": "Purchase 11 Full Costume Sets"
+  },
+  "8 Moons from Music Notes": {
+    "kingdom": "All",
+    "image": "images/misc/notes.png",
+    "difficulty": 24,
+    "text": "8 Moons from Music Notes"
+  },
+  "15 Treasure Chest Moons": {
+    "kingdom": "All",
+    "image": "images/misc/treasure_chest.png",
+    "difficulty": 24,
+    "text": "15 Treasure Chest Moons"
+  },
+  "3 Moons from Hint Art": {
+    "kingdom": "All",
+    "image": "images/misc/hint_art.png",
+    "difficulty": 24,
+    "text": "3 Moons from Hint Art"
+  },
+  "Plant 7 Seeds (Total)": {
+    "kingdom": "All",
+    "image": "images/misc/seed.png",
+    "difficulty": 24,
+    "text": "Plant 7 Seeds"
+  },
+  "12 Unique Life-Up Hearts (excl. Shops)": {
+    "kingdom": "All",
+    "image": "images/misc/life_up_heart.png",
+    "difficulty": 24,
+    "text": "12 Unique Life-Up Hearts (excl. Shops)"
+  },
+  "19 Story Moons (excl. Multi Moons)": {
+    "kingdom": "All",
+    "image": "images/moons/power_moon.png",
+    "difficulty": 24,
+    "text": "19 Story Moons (excl. Multi Moons)"
+  },
+
+  "2 Moons from sub-areas (Ruined)": {
+    "kingdom": "Ruined",
+    "image": "images/misc/sub_area.png",
+    "difficulty": 25,
+    "text": "2 Moons from sub‑areas"
+  },
+  "3 Checkpoints (Moon)": {
+    "kingdom": "Moon",
+    "image": "images/misc/checkpoint_flag.png",
+    "difficulty": 25,
+    "text": "3 Checkpoints"
+  },
+  "Wear the Boxer Shorts": {
+    "kingdom": "All",
+    "image": "images/outfits/boxers.png",
+    "difficulty": 25,
+    "text": "Wear the Boxer Shorts"
+  },
+  "11 Timer Challenges": {
+    "kingdom": "All",
+    "image": "images/misc/timer_challenge.png",
+    "difficulty": 25,
+    "text": "11 Timer Challenges"
+  },
+  "8 Captain Toad Moons": {
+    "kingdom": "All",
+    "image": "images/misc/captain_toad.png",
+    "difficulty": 25,
+    "text": "8 Captain Toad Moons"
+  },
+  "13 Moons from 8-bit Sections": {
+    "kingdom": "All",
+    "image": "images/moons/8bit_moon.png",
+    "difficulty": 25,
+    "text": "13 Moons from 8‑bit Sections"
+  },
+  "8 Moons from Moon Shards": {
+    "kingdom": "All",
+    "image": "images/misc/moon_shard.png",
+    "difficulty": 25,
+    "text": "8 Moons from Moon Shards"
+  },
+  "Purchase 10 Moons": {
+    "kingdom": "All",
+    "image": "images/moons/purchase_moon.png",
+    "difficulty": 25,
+    "text": "Purchase 10 Moons"
+  },
+  "32 Unique Captures": {
+    "kingdom": "All",
+    "image": "images/captures/captures.png",
+    "difficulty": 25,
+    "text": "32 Unique Captures"
+  },
+  "450 Total Regional Coins": {
+    "kingdom": "All",
+    "image": "images/regional_coins/regional_coins.png",
+    "difficulty": 25,
+    "text": "450 Total Regional Coins"
+  },
+  "World Peace Restored! (Luncheon)": {
+    "kingdom": "Luncheon",
+    "image": "images/moons/multi_moon_luncheon.png",
+    "difficulty": 25,
+    "text": "World Peace Restored!"
+  },
+  "Outfit-Door (Bowser's)": {
+    "kingdom": "Bowser's",
+    "image": "images/outfits/outfit_bowsers.png",
+    "difficulty": 25,
+    "text": "Scene of Crossing the Poison Swamp"
   }
 }
