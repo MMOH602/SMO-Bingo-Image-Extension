@@ -25,6 +25,10 @@
 .smobadge-snow      { background-color: #FFA50F; }
 .smobadge-seaside   { background-color: #CD83F6; }
 .smobadge-luncheon  { background-color: #2D9081; }
+.smobadge-ruined    { background-color: #F8D700; }
+.smobadge-bowsers   { background-color: #DF3250; }
+.smobadge-moon      { background-color: #EBDB78; }
+.smobadge-mushroom  { background-color: #F8D700; }
 .smobadge-all       { background-color: #617d9e; }
 
 /* Feinschliff: Text-Container in der Kachel leicht nach links schieben */

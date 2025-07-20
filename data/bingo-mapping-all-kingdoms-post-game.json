@@ -1,8 +1,2065 @@
 {
-  "Test Goal (Kingdom)": {
-    "kingdom": "Kingdom",
-    "image": "images/misc/invalid_image_path.png",
-    "difficulty": 1,
-    "text": "Test Goal"
+  "10 Moons (Cap)": {
+    "kingdom": "Cap",
+    "image": "images/moons/power_moon.png",
+    "text": "10 Moons"
+  },
+  "12 Moons (Cap)": {
+    "kingdom": "Cap",
+    "image": "images/moons/power_moon.png",
+    "text": "12 Moons"
+  },
+  "14 Moons (Cap)": {
+    "kingdom": "Cap",
+    "image": "images/moons/power_moon.png",
+    "text": "14 Moons"
+  },
+  "16 Moons (Cap)": {
+    "kingdom": "Cap",
+    "image": "images/moons/power_moon.png",
+    "text": "16 Moons"
+  },
+  "18 Moons (Cap)": {
+    "kingdom": "Cap",
+    "image": "images/moons/power_moon.png",
+    "text": "18 Moons"
+  },
+  "20 Moons (Cap)": {
+    "kingdom": "Cap",
+    "image": "images/moons/power_moon.png",
+    "text": "20 Moons"
+  },
+  "30 Regional Coins (Cap)": {
+    "kingdom": "Cap",
+    "image": "images/regional_coins/regional_cap.png",
+    "text": "30 Regional Coins"
+  },
+  "35 Regional Coins (Cap)": {
+    "kingdom": "Cap",
+    "image": "images/regional_coins/regional_cap.png",
+    "text": "35 Regional Coins"
+  },
+  "40 Regional Coins (Cap)": {
+    "kingdom": "Cap",
+    "image": "images/regional_coins/regional_cap.png",
+    "text": "40 Regional Coins"
+  },
+  "45 Regional Coins (Cap)": {
+    "kingdom": "Cap",
+    "image": "images/regional_coins/regional_cap.png",
+    "text": "45 Regional Coins"
+  },
+  "50 Regional Coins (Cap)": {
+    "kingdom": "Cap",
+    "image": "images/regional_coins/regional_cap.png",
+    "text": "50 Regional Coins"
+  },
+  "Koopa Freerunning (Cap)": {
+    "kingdom": "Cap",
+    "image": "images/misc/koopa_freerunning.png",
+    "text": "Koopa Freerunning"
+  },
+  "6 Moons from sub-areas (Cap)": {
+    "kingdom": "Cap",
+    "image": "images/misc/sub_area.png",
+    "text": "6 Moons from sub‑areas"
+  },
+  "8 Moons from sub-areas (Cap)": {
+    "kingdom": "Cap",
+    "image": "images/misc/sub_area.png",
+    "text": "8 Moons from sub‑areas"
+  },
+  "The Forgotten Treasure (Cap)": {
+    "kingdom": "Cap",
+    "image": "images/moons/power_moon.png",
+    "text": "The Forgotten Treasure"
+  },
+  "18 Moons (Cascade)": {
+    "kingdom": "Cascade",
+    "image": "images/moons/power_moon.png",
+    "text": "18 Moons"
+  },
+  "20 Moons (Cascade)": {
+    "kingdom": "Cascade",
+    "image": "images/moons/power_moon.png",
+    "text": "20 Moons"
+  },
+  "22 Moons (Cascade)": {
+    "kingdom": "Cascade",
+    "image": "images/moons/power_moon.png",
+    "text": "22 Moons"
+  },
+  "24 Moons (Cascade)": {
+    "kingdom": "Cascade",
+    "image": "images/moons/power_moon.png",
+    "text": "24 Moons"
+  },
+  "26 Moons (Cascade)": {
+    "kingdom": "Cascade",
+    "image": "images/moons/power_moon.png",
+    "text": "26 Moons"
+  },
+  "28 Moons (Cascade)": {
+    "kingdom": "Cascade",
+    "image": "images/moons/power_moon.png",
+    "text": "28 Moons"
+  },
+  "30 Moons (Cascade)": {
+    "kingdom": "Cascade",
+    "image": "images/moons/power_moon.png",
+    "text": "30 Moons"
+  },
+  "30 Regional Coins (Cascade)": {
+    "kingdom": "Cascade",
+    "image": "images/regional_coins/regional_cascade.png",
+    "text": "30 Regional Coins"
+  },
+  "35 Regional Coins (Cascade)": {
+    "kingdom": "Cascade",
+    "image": "images/regional_coins/regional_cascade.png",
+    "text": "35 Regional Coins"
+  },
+  "40 Regional Coins (Cascade)": {
+    "kingdom": "Cascade",
+    "image": "images/regional_coins/regional_cascade.png",
+    "text": "40 Regional Coins"
+  },
+  "45 Regional Coins (Cascade)": {
+    "kingdom": "Cascade",
+    "image": "images/regional_coins/regional_cascade.png",
+    "text": "45 Regional Coins"
+  },
+  "50 Regional Coins (Cascade)": {
+    "kingdom": "Cascade",
+    "image": "images/regional_coins/regional_cascade.png",
+    "text": "50 Regional Coins"
+  },
+  "Koopa Freerunning (Cascade)": {
+    "kingdom": "Cascade",
+    "image": "images/misc/koopa_freerunning.png",
+    "text": "Koopa Freerunning"
+  },
+  "6 Moons from sub-areas (Cascade)": {
+    "kingdom": "Cascade",
+    "image": "images/misc/sub_area.png",
+    "text": "6 Moons from sub‑areas"
+  },
+  "8 Moons from sub-areas (Cascade)": {
+    "kingdom": "Cascade",
+    "image": "images/misc/sub_area.png",
+    "text": "8 Moons from sub‑areas"
+  },
+  "10 Moons from sub-areas (Cascade)": {
+    "kingdom": "Cascade",
+    "image": "images/misc/sub_area.png",
+    "text": "10 Moons from sub‑areas"
+  },
+  "Tostarena-Tourist in the Cascade Kingdom!": {
+    "kingdom": "Cascade",
+    "image": "images/misc/tostarenan.png",
+    "text": "Tostarena-Tourist in the Cascade Kingdom!"
+  },
+  "Caveman Cave-Fan (Cascade)": {
+    "kingdom": "Cascade",
+    "image": "images/outfits/outfit_cascade.png",
+    "text": "Caveman Cave-Fan"
+  },
+  "50 Moons (Sand)": {
+    "kingdom": "Sand",
+    "image": "images/moons/power_moon_sand.png",
+    "text": "50 Moons"
+  },
+  "54 Moons (Sand)": {
+    "kingdom": "Sand",
+    "image": "images/moons/power_moon_sand.png",
+    "text": "54 Moons"
+  },
+  "58 Moons (Sand)": {
+    "kingdom": "Sand",
+    "image": "images/moons/power_moon_sand.png",
+    "text": "58 Moons"
+  },
+  "62 Moons (Sand)": {
+    "kingdom": "Sand",
+    "image": "images/moons/power_moon_sand.png",
+    "text": "62 Moons"
+  },
+  "66 Moons (Sand)": {
+    "kingdom": "Sand",
+    "image": "images/moons/power_moon_sand.png",
+    "text": "66 Moons"
+  },
+  "70 Moons (Sand)": {
+    "kingdom": "Sand",
+    "image": "images/moons/power_moon_sand.png",
+    "text": "70 Moons"
+  },
+  "50 Regional Coins (Sand)": {
+    "kingdom": "Sand",
+    "image": "images/regional_coins/regional_sand.png",
+    "text": "50 Regional Coins"
+  },
+  "55 Regional Coins (Sand)": {
+    "kingdom": "Sand",
+    "image": "images/regional_coins/regional_sand.png",
+    "text": "55 Regional Coins"
+  },
+  "60 Regional Coins (Sand)": {
+    "kingdom": "Sand",
+    "image": "images/regional_coins/regional_sand.png",
+    "text": "60 Regional Coins"
+  },
+  "65 Regional Coins (Sand)": {
+    "kingdom": "Sand",
+    "image": "images/regional_coins/regional_sand.png",
+    "text": "65 Regional Coins"
+  },
+  "70 Regional Coins (Sand)": {
+    "kingdom": "Sand",
+    "image": "images/regional_coins/regional_sand.png",
+    "text": "70 Regional Coins"
+  },
+  "75 Regional Coins (Sand)": {
+    "kingdom": "Sand",
+    "image": "images/regional_coins/regional_sand.png",
+    "text": "75 Regional Coins"
+  },
+  "80 Regional Coins (Sand)": {
+    "kingdom": "Sand",
+    "image": "images/regional_coins/regional_sand.png",
+    "text": "80 Regional Coins"
+  },
+  "Koopa Freerunning (Sand)": {
+    "kingdom": "Sand",
+    "image": "images/misc/koopa_freerunning.png",
+    "text": "Koopa Freerunning"
+  },
+  "Music-Toad (Sand)": {
+    "kingdom": "Sand",
+    "image": "images/misc/music_toad.png",
+    "text": "Music-Toad"
+  },
+  "Outfit-Door (Sand)": {
+    "kingdom": "Sand",
+    "image": "images/outfits/outfit_sand.png",
+    "text": "Dancing with New Friends"
+  },
+  "Sand Kingdom: Sphynx Quiz Complete!": {
+    "kingdom": "Sand",
+    "image": "images/misc/sphynx.png",
+    "text": "Sand Kingdom: Sphynx Quiz Complete!"
+  },
+  "8 Moons from sub-areas (Sand)": {
+    "kingdom": "Sand",
+    "image": "images/misc/sub_area.png",
+    "text": "8 Moons from sub‑areas"
+  },
+  "10 Moons from sub-areas (Sand)": {
+    "kingdom": "Sand",
+    "image": "images/misc/sub_area.png",
+    "text": "10 Moons from sub‑areas"
+  },
+  "12 Moons from sub-areas (Sand)": {
+    "kingdom": "Sand",
+    "image": "images/misc/sub_area.png",
+    "text": "12 Moons from sub‑areas"
+  },
+  "Tostarena-Tourist in the Sand Kingdom!": {
+    "kingdom": "Sand",
+    "image": "images/misc/tostarenan.png",
+    "text": "Tostarena-Tourist in the Sand Kingdom!"
+  },
+  "Herding Sheep in the Dunes (Sand)": {
+    "kingdom": "Sand",
+    "image": "images/misc/sheep.png",
+    "text": "Herding Sheep in the Dunes"
+  },
+  "Koopa Trace-Walking (Sand)": {
+    "kingdom": "Sand",
+    "image": "images/misc/koopa_tracewalking.png",
+    "text": "Koopa Trace‑Walking"
+  },
+  "Ice Cave Treasure-Moon (Sand)": {
+    "kingdom": "Sand",
+    "image": "images/moons/power_moon_sand.png",
+    "text": "Ice Cave Treasure-Moon"
+  },
+  "24 Moons (Lake)": {
+    "kingdom": "Lake",
+    "image": "images/moons/power_moon_lake.png",
+    "text": "24 Moons"
+  },
+  "26 Moons (Lake)": {
+    "kingdom": "Lake",
+    "image": "images/moons/power_moon_lake.png",
+    "text": "26 Moons"
+  },
+  "28 Moons (Lake)": {
+    "kingdom": "Lake",
+    "image": "images/moons/power_moon_lake.png",
+    "text": "28 Moons"
+  },
+  "30 Moons (Lake)": {
+    "kingdom": "Lake",
+    "image": "images/moons/power_moon_lake.png",
+    "text": "30 Moons"
+  },
+  "32 Moons (Lake)": {
+    "kingdom": "Lake",
+    "image": "images/moons/power_moon_lake.png",
+    "text": "32 Moons"
+  },
+  "34 Moons (Lake)": {
+    "kingdom": "Lake",
+    "image": "images/moons/power_moon_lake.png",
+    "text": "34 Moons"
+  },
+  "30 Regional Coins (Lake)": {
+    "kingdom": "Lake",
+    "image": "images/regional_coins/regional_lake.png",
+    "text": "30 Regional Coins"
+  },
+  "35 Regional Coins (Lake)": {
+    "kingdom": "Lake",
+    "image": "images/regional_coins/regional_lake.png",
+    "text": "35 Regional Coins"
+  },
+  "40 Regional Coins (Lake)": {
+    "kingdom": "Lake",
+    "image": "images/regional_coins/regional_lake.png",
+    "text": "40 Regional Coins"
+  },
+  "45 Regional Coins (Lake)": {
+    "kingdom": "Lake",
+    "image": "images/regional_coins/regional_lake.png",
+    "text": "45 Regional Coins"
+  },
+  "50 Regional Coins (Lake)": {
+    "kingdom": "Lake",
+    "image": "images/regional_coins/regional_lake.png",
+    "text": "50 Regional Coins"
+  },
+  "Koopa Freerunning (Lake)": {
+    "kingdom": "Lake",
+    "image": "images/misc/koopa_freerunning.png",
+    "text": "Koopa Freerunning"
+  },
+  "Plant 1 Seed (Lake)": {
+    "kingdom": "Lake",
+    "image": "images/misc/seed.png",
+    "text": "Plant 1 Seed"
+  },
+  "4 Moons from sub-areas (Lake)": {
+    "kingdom": "Lake",
+    "image": "images/misc/sub_area.png",
+    "text": "4 Moons from sub‑areas"
+  },
+  "6 Moons from sub-areas (Lake)": {
+    "kingdom": "Lake",
+    "image": "images/misc/sub_area.png",
+    "text": "6 Moons from sub‑areas"
+  },
+  "Puzzle Room Solved! (Lake)": {
+    "kingdom": "Lake",
+    "image": "images/captures/puzzle_capture.png",
+    "text": "A Successful Repair Job!"
+  },
+  "1 Moon from the Lochlady Sisters": {
+    "kingdom": "Lake",
+    "image": "images/misc/lochlady.png",
+    "text": "1 Moon from the Lochlady Sisters"
+  },
+  "2 Moons from the Lochlady Sisters": {
+    "kingdom": "Lake",
+    "image": "images/misc/lochlady.png",
+    "text": "2 Moons from the Lochlady Sisters"
+  },
+  "3 Moons from the Lochlady Sisters": {
+    "kingdom": "Lake",
+    "image": "images/misc/lochlady.png",
+    "text": "3 Moons from the Lochlady Sisters"
+  },
+  "40 Moons (Wooded)": {
+    "kingdom": "Wooded",
+    "image": "images/moons/power_moon_wooded.png",
+    "text": "40 Moons"
+  },
+  "44 Moons (Wooded)": {
+    "kingdom": "Wooded",
+    "image": "images/moons/power_moon_wooded.png",
+    "text": "44 Moons"
+  },
+  "48 Moons (Wooded)": {
+    "kingdom": "Wooded",
+    "image": "images/moons/power_moon_wooded.png",
+    "text": "48 Moons"
+  },
+  "52 Moons (Wooded)": {
+    "kingdom": "Wooded",
+    "image": "images/moons/power_moon_wooded.png",
+    "text": "52 Moons"
+  },
+  "56 Moons (Wooded)": {
+    "kingdom": "Wooded",
+    "image": "images/moons/power_moon_wooded.png",
+    "text": "56 Moons"
+  },
+  "60 Moons (Wooded)": {
+    "kingdom": "Wooded",
+    "image": "images/moons/power_moon_wooded.png",
+    "text": "60 Moons"
+  },
+  "50 Regional Coins (Wooded)": {
+    "kingdom": "Wooded",
+    "image": "images/regional_coins/regional_wooded.png",
+    "text": "50 Regional Coins"
+  },
+  "55 Regional Coins (Wooded)": {
+    "kingdom": "Wooded",
+    "image": "images/regional_coins/regional_wooded.png",
+    "text": "55 Regional Coins"
+  },
+  "60 Regional Coins (Wooded)": {
+    "kingdom": "Wooded",
+    "image": "images/regional_coins/regional_wooded.png",
+    "text": "60 Regional Coins"
+  },
+  "65 Regional Coins (Wooded)": {
+    "kingdom": "Wooded",
+    "image": "images/regional_coins/regional_wooded.png",
+    "text": "65 Regional Coins"
+  },
+  "70 Regional Coins (Wooded)": {
+    "kingdom": "Wooded",
+    "image": "images/regional_coins/regional_wooded.png",
+    "text": "70 Regional Coins"
+  },
+  "75 Regional Coins (Wooded)": {
+    "kingdom": "Wooded",
+    "image": "images/regional_coins/regional_wooded.png",
+    "text": "75 Regional Coins"
+  },
+  "80 Regional Coins (Wooded)": {
+    "kingdom": "Wooded",
+    "image": "images/regional_coins/regional_wooded.png",
+    "text": "80 Regional Coins"
+  },
+  "Bonneter-Scientist (Wooded)": {
+    "kingdom": "Wooded",
+    "image": "images/misc/bonneter.png",
+    "text": "Bonneter-Scientist"
+  },
+  "5 Moons (Deep Woods)": {
+    "kingdom": "Wooded",
+    "image": "images/moons/power_moon_wooded.png",
+    "text": "5 Deep Woods Moons"
+  },
+  "6 Moons (Deep Woods)": {
+    "kingdom": "Wooded",
+    "image": "images/moons/power_moon_wooded.png",
+    "text": "6 Deep Woods Moons"
+  },
+  "7 Moons (Deep Woods)": {
+    "kingdom": "Wooded",
+    "image": "images/moons/power_moon_wooded.png",
+    "text": "7 Deep Woods Moons"
+  },
+  "8 Moons (Deep Woods)": {
+    "kingdom": "Wooded",
+    "image": "images/moons/power_moon_wooded.png",
+    "text": "8 Deep Woods Moons"
+  },
+  "Koopa Freerunning (Wooded)": {
+    "kingdom": "Wooded",
+    "image": "images/misc/koopa_freerunning.png",
+    "text": "Koopa Freerunning"
+  },
+  "Music-Toad (Wooded)": {
+    "kingdom": "Wooded",
+    "image": "images/misc/music_toad.png",
+    "text": "Music-Toad"
+  },
+  "9 Moons from Nuts": {
+    "kingdom": "Wooded",
+    "image": "images/misc/nut.png",
+    "text": "9 Moons from Nuts"
+  },
+  "10 Moons from Nuts": {
+    "kingdom": "Wooded",
+    "image": "images/misc/nut.png",
+    "text": "10 Moons from Nuts"
+  },
+  "11 Moons from Nuts": {
+    "kingdom": "Wooded",
+    "image": "images/misc/nut.png",
+    "text": "11 Moons from Nuts"
+  },
+  "12 Moons from Nuts": {
+    "kingdom": "Wooded",
+    "image": "images/misc/nut.png",
+    "text": "12 Moons from Nuts"
+  },
+  "13 Moons from Nuts": {
+    "kingdom": "Wooded",
+    "image": "images/misc/nut.png",
+    "text": "13 Moons from Nuts"
+  },
+  "14 Moons from Nuts": {
+    "kingdom": "Wooded",
+    "image": "images/misc/nut.png",
+    "text": "14 Moons from Nuts"
+  },
+  "Outfit-Door (Wooded)": {
+    "kingdom": "Wooded",
+    "image": "images/outfits/outfit_wooded.png",
+    "text": "Exploring for Treasure"
+  },
+  "8 Moons from sub-areas (Wooded)": {
+    "kingdom": "Wooded",
+    "image": "images/misc/sub_area.png",
+    "text": "8 Moons from sub‑areas"
+  },
+  "10 Moons from sub-areas (Wooded)": {
+    "kingdom": "Wooded",
+    "image": "images/misc/sub_area.png",
+    "text": "10 Moons from sub‑areas"
+  },
+  "12 Moons from sub-areas (Wooded)": {
+    "kingdom": "Wooded",
+    "image": "images/misc/sub_area.png",
+    "text": "12 Moons from sub‑areas"
+  },
+  "14 Moons from sub-areas (Wooded)": {
+    "kingdom": "Wooded",
+    "image": "images/misc/sub_area.png",
+    "text": "14 Moons from sub‑areas"
+  },
+  "Inside a Rock in the Forest (Wooded)": {
+    "kingdom": "Wooded",
+    "image": "images/moons/power_moon_wooded.png",
+    "text": "Inside a Rock in the Forest"
+  },
+  "A Treasure Made from Coins (Wooded)": {
+    "kingdom": "Wooded",
+    "image": "images/moons/power_moon_wooded.png",
+    "text": "A Treasure Made from Coins"
+  },
+  "Yoofoe-Invader in the Wooded Kingdom!": {
+    "kingdom": "Wooded",
+    "image": "images/misc/invader.png",
+    "text": "Invader in the Sky Garden"
+  },
+  "4 Moons (Cloud)": {
+    "kingdom": "Cloud",
+    "image": "images/moons/power_moon.png",
+    "text": "4 Moons"
+  },
+  "6 Moons (Cloud)": {
+    "kingdom": "Cloud",
+    "image": "images/moons/power_moon.png",
+    "text": "6 Moons"
+  },
+  "2 Moons from sub-areas (Cloud)": {
+    "kingdom": "Cloud",
+    "image": "images/misc/sub_area.png",
+    "text": "2 Moons from sub‑areas"
+  },
+  "Goomba Picture-Match (Cloud)": {
+    "kingdom": "Cloud",
+    "image": "images/captures/goomba_picture_match.png",
+    "text": "Goomba Picture-Match"
+  },
+  "16 Moons (Lost)": {
+    "kingdom": "Lost",
+    "image": "images/moons/power_moon.png",
+    "text": "16 Moons"
+  },
+  "18 Moons (Lost)": {
+    "kingdom": "Lost",
+    "image": "images/moons/power_moon.png",
+    "text": "18 Moons"
+  },
+  "20 Moons (Lost)": {
+    "kingdom": "Lost",
+    "image": "images/moons/power_moon.png",
+    "text": "20 Moons"
+  },
+  "22 Moons (Lost)": {
+    "kingdom": "Lost",
+    "image": "images/moons/power_moon.png",
+    "text": "22 Moons"
+  },
+  "24 Moons (Lost)": {
+    "kingdom": "Lost",
+    "image": "images/moons/power_moon.png",
+    "text": "24 Moons"
+  },
+  "26 Moons (Lost)": {
+    "kingdom": "Lost",
+    "image": "images/moons/power_moon.png",
+    "text": "26 Moons"
+  },
+  "28 Moons (Lost)": {
+    "kingdom": "Lost",
+    "image": "images/moons/power_moon.png",
+    "text": "28 Moons"
+  },
+  "30 Regional Coins (Lost)": {
+    "kingdom": "Lost",
+    "image": "images/regional_coins/regional_lost.png",
+    "text": "30 Regional Coins"
+  },
+  "35 Regional Coins (Lost)": {
+    "kingdom": "Lost",
+    "image": "images/regional_coins/regional_lost.png",
+    "text": "35 Regional Coins"
+  },
+  "40 Regional Coins (Lost)": {
+    "kingdom": "Lost",
+    "image": "images/regional_coins/regional_lost.png",
+    "text": "40 Regional Coins"
+  },
+  "45 Regional Coins (Lost)": {
+    "kingdom": "Lost",
+    "image": "images/regional_coins/regional_lost.png",
+    "text": "45 Regional Coins"
+  },
+  "50 Regional Coins (Lost)": {
+    "kingdom": "Lost",
+    "image": "images/regional_coins/regional_lost.png",
+    "text": "50 Regional Coins"
+  },
+  "Bonneter-Scientist (Lost)": {
+    "kingdom": "Lost",
+    "image": "images/misc/bonneter.png",
+    "text": "Bonneter-Scientist"
+  },
+  "Koopa Freerunning (Lost)": {
+    "kingdom": "Lost",
+    "image": "images/misc/koopa_freerunning.png",
+    "text": "Koopa Freerunning"
+  },
+  "2 Moons from sub-areas (Lost)": {
+    "kingdom": "Lost",
+    "image": "images/misc/sub_area.png",
+    "text": "2 Moons from sub‑areas"
+  },
+  "4 Moons from sub-areas (Lost)": {
+    "kingdom": "Lost",
+    "image": "images/misc/sub_area.png",
+    "text": "4 Moons from sub‑areas"
+  },
+  "50 Moons (Metro)": {
+    "kingdom": "Metro",
+    "image": "images/moons/power_moon_metro.png",
+    "text": "50 Moons"
+  },
+  "54 Moons (Metro)": {
+    "kingdom": "Metro",
+    "image": "images/moons/power_moon_metro.png",
+    "text": "54 Moons"
+  },
+  "56 Moons (Metro)": {
+    "kingdom": "Metro",
+    "image": "images/moons/power_moon_metro.png",
+    "text": "56 Moons"
+  },
+  "62 Moons (Metro)": {
+    "kingdom": "Metro",
+    "image": "images/moons/power_moon_metro.png",
+    "text": "62 Moons"
+  },
+  "66 Moons (Metro)": {
+    "kingdom": "Metro",
+    "image": "images/moons/power_moon_metro.png",
+    "text": "66 Moons"
+  },
+  "70 Moons (Metro)": {
+    "kingdom": "Metro",
+    "image": "images/moons/power_moon_metro.png",
+    "text": "70 Moons"
+  },
+  "50 Regional Coins (Metro)": {
+    "kingdom": "Metro",
+    "image": "images/regional_coins/regional_metro.png",
+    "text": "50 Regional Coins"
+  },
+  "55 Regional Coins (Metro)": {
+    "kingdom": "Metro",
+    "image": "images/regional_coins/regional_metro.png",
+    "text": "55 Regional Coins"
+  },
+  "60 Regional Coins (Metro)": {
+    "kingdom": "Metro",
+    "image": "images/regional_coins/regional_metro.png",
+    "text": "60 Regional Coins"
+  },
+  "65 Regional Coins (Metro)": {
+    "kingdom": "Metro",
+    "image": "images/regional_coins/regional_metro.png",
+    "text": "65 Regional Coins"
+  },
+  "70 Regional Coins (Metro)": {
+    "kingdom": "Metro",
+    "image": "images/regional_coins/regional_metro.png",
+    "text": "70 Regional Coins"
+  },
+  "75 Regional Coins (Metro)": {
+    "kingdom": "Metro",
+    "image": "images/regional_coins/regional_metro.png",
+    "text": "75 Regional Coins"
+  },
+  "80 Regional Coins (Metro)": {
+    "kingdom": "Metro",
+    "image": "images/regional_coins/regional_metro.png",
+    "text": "80 Regional Coins"
+  },
+  "Koopa Freerunning (Metro)": {
+    "kingdom": "Metro",
+    "image": "images/misc/koopa_freerunning.png",
+    "text": "Koopa Freerunning"
+  },
+  "Music-Toad (Metro)": {
+    "kingdom": "Metro",
+    "image": "images/misc/music_toad.png",
+    "text": "Music-Toad"
+  },
+  "Outfit-Door (Metro)": {
+    "kingdom": "Metro",
+    "image": "images/outfits/outfit_metro.png",
+    "text": "Rewiring the Neighborhood"
+  },
+  "12 Moons from sub-areas (Metro)": {
+    "kingdom": "Metro",
+    "image": "images/misc/sub_area.png",
+    "text": "12 Moons from sub‑areas"
+  },
+  "14 Moons from sub-areas (Metro)": {
+    "kingdom": "Metro",
+    "image": "images/misc/sub_area.png",
+    "text": "14 Moons from sub‑areas"
+  },
+  "16 Moons from sub-areas (Metro)": {
+    "kingdom": "Metro",
+    "image": "images/misc/sub_area.png",
+    "text": "16 Moons from sub‑areas"
+  },
+  "18 Moons from sub-areas (Metro)": {
+    "kingdom": "Metro",
+    "image": "images/misc/sub_area.png",
+    "text": "18 Moons from sub‑areas"
+  },
+  "Tostarena-Tourist in the Metro Kingdom!": {
+    "kingdom": "Metro",
+    "image": "images/misc/tostarenan.png",
+    "text": "Tostarena-Tourist in the Metro Kingdom!"
+  },
+  "Free Parking: On the Helipad Rooftop! (Metro)": {
+    "kingdom": "Metro",
+    "image": "images/misc/scooter.png",
+    "text": "Free Parking: On the Helipad Rooftop!"
+  },
+  "Jump-Rope Hero! (Metro)": {
+    "kingdom": "Metro",
+    "image": "images/misc/ranking_board.png",
+    "text": "Jump‑Rope Hero!"
+  },
+  "RC Car: Race Complete!": {
+    "kingdom": "Metro",
+    "image": "images/captures/rc_car_capture.png",
+    "text": "RC Car: Race Complete!"
+  },
+  "Metro Kingdom: Pauline Quiz Complete!": {
+    "kingdom": "Metro",
+    "image": "images/moons/power_moon_metro.png",
+    "text": "Metro Kingdom: Pauline Quiz Complete!"
+  },
+  "Free Parking: Leap of Faith! (Metro)": {
+    "kingdom": "Metro",
+    "image": "images/misc/scooter.png",
+    "text": "Free Parking: Leap of Faith!"
+  },
+  "Power Station: Puzzle Solved! (Metro)": {
+    "kingdom": "Metro",
+    "image": "images/captures/metro_puzzle_capture.png",
+    "text": "Powering Up the Power Plant"
+  },
+  "32 Moons (Snow)": {
+    "kingdom": "Snow",
+    "image": "images/moons/power_moon_snow.png",
+    "text": "32 Moons"
+  },
+  "34 Moons (Snow)": {
+    "kingdom": "Snow",
+    "image": "images/moons/power_moon_snow.png",
+    "text": "34 Moons"
+  },
+  "36 Moons (Snow)": {
+    "kingdom": "Snow",
+    "image": "images/moons/power_moon_snow.png",
+    "text": "36 Moons"
+  },
+  "38 Moons (Snow)": {
+    "kingdom": "Snow",
+    "image": "images/moons/power_moon_snow.png",
+    "text": "38 Moons"
+  },
+  "40 Moons (Snow)": {
+    "kingdom": "Snow",
+    "image": "images/moons/power_moon_snow.png",
+    "text": "40 Moons"
+  },
+  "42 Moons (Snow)": {
+    "kingdom": "Snow",
+    "image": "images/moons/power_moon_snow.png",
+    "text": "42 Moons"
+  },
+  "30 Regional Coins (Snow)": {
+    "kingdom": "Snow",
+    "image": "images/regional_coins/regional_snow.png",
+    "text": "30 Regional Coins"
+  },
+  "35 Regional Coins (Snow)": {
+    "kingdom": "Snow",
+    "image": "images/regional_coins/regional_snow.png",
+    "text": "35 Regional Coins"
+  },
+  "40 Regional Coins (Snow)": {
+    "kingdom": "Snow",
+    "image": "images/regional_coins/regional_snow.png",
+    "text": "40 Regional Coins"
+  },
+  "45 Regional Coins (Snow)": {
+    "kingdom": "Snow",
+    "image": "images/regional_coins/regional_snow.png",
+    "text": "45 Regional Coins"
+  },
+  "50 Regional Coins (Snow)": {
+    "kingdom": "Snow",
+    "image": "images/regional_coins/regional_snow.png",
+    "text": "50 Regional Coins"
+  },
+  "Bonneter-Scientist (Snow)": {
+    "kingdom": "Snow",
+    "image": "images/misc/bonneter.png",
+    "text": "Bonneter-Scientist"
+  },
+  "Koopa Freerunning (Snow)": {
+    "kingdom": "Snow",
+    "image": "images/misc/koopa_freerunning.png",
+    "text": "Koopa Freerunning"
+  },
+  "Outfit-Door (Snow)": {
+    "kingdom": "Snow",
+    "image": "images/outfits/outfit_snow.png",
+    "text": "Moon Shards in the Cold Room"
+  },
+  "6 Moons from sub-areas (Snow)": {
+    "kingdom": "Snow",
+    "image": "images/misc/sub_area.png",
+    "text": "6 Moons from sub‑areas"
+  },
+  "8 Moons from sub-areas (Snow)": {
+    "kingdom": "Snow",
+    "image": "images/misc/sub_area.png",
+    "text": "8 Moons from sub‑areas"
+  },
+  "10 Moons from sub-areas (Snow)": {
+    "kingdom": "Snow",
+    "image": "images/misc/sub_area.png",
+    "text": "10 Moons from sub‑areas"
+  },
+  "Koopa Trace-Walking (Snow)": {
+    "kingdom": "Snow",
+    "image": "images/misc/koopa_tracewalking.png",
+    "text": "Koopa Trace‑Walking"
+  },
+  "Snowline Circuit: Class S Race (Snow)": {
+    "kingdom": "Snow",
+    "image": "images/captures/shiverian.png",
+    "text": "Snowline Circuit: Class S Race"
+  },
+  "Iceburn Circuit: Class A Race (Snow)": {
+    "kingdom": "Snow",
+    "image": "images/captures/shiverian.png",
+    "text": "Iceburn Circuit: Class A Race"
+  },
+  "Iceburn Circuit: Class S Race (Snow)": {
+    "kingdom": "Snow",
+    "image": "images/captures/shiverian.png",
+    "text": "Iceburn Circuit: Class S Race"
+  },
+  "40 Moons (Seaside)": {
+    "kingdom": "Seaside",
+    "image": "images/moons/power_moon_seaside.png",
+    "text": "40 Moons"
+  },
+  "44 Moons (Seaside)": {
+    "kingdom": "Seaside",
+    "image": "images/moons/power_moon_seaside.png",
+    "text": "44 Moons"
+  },
+  "48 Moons (Seaside)": {
+    "kingdom": "Seaside",
+    "image": "images/moons/power_moon_seaside.png",
+    "text": "48 Moons"
+  },
+  "52 Moons (Seaside)": {
+    "kingdom": "Seaside",
+    "image": "images/moons/power_moon_seaside.png",
+    "text": "52 Moons"
+  },
+  "56 Moons (Seaside)": {
+    "kingdom": "Seaside",
+    "image": "images/moons/power_moon_seaside.png",
+    "text": "56 Moons"
+  },
+  "60 Moons (Seaside)": {
+    "kingdom": "Seaside",
+    "image": "images/moons/power_moon_seaside.png",
+    "text": "60 Moons"
+  },
+  "50 Regional Coins (Seaside)": {
+    "kingdom": "Seaside",
+    "image": "images/regional_coins/regional_seaside.png",
+    "text": "50 Regional Coins"
+  },
+  "55 Regional Coins (Seaside)": {
+    "kingdom": "Seaside",
+    "image": "images/regional_coins/regional_seaside.png",
+    "text": "55 Regional Coins"
+  },
+  "60 Regional Coins (Seaside)": {
+    "kingdom": "Seaside",
+    "image": "images/regional_coins/regional_seaside.png",
+    "text": "60 Regional Coins"
+  },
+  "65 Regional Coins (Seaside)": {
+    "kingdom": "Seaside",
+    "image": "images/regional_coins/regional_seaside.png",
+    "text": "65 Regional Coins"
+  },
+  "70 Regional Coins (Seaside)": {
+    "kingdom": "Seaside",
+    "image": "images/regional_coins/regional_seaside.png",
+    "text": "70 Regional Coins"
+  },
+  "75 Regional Coins (Seaside)": {
+    "kingdom": "Seaside",
+    "image": "images/regional_coins/regional_seaside.png",
+    "text": "75 Regional Coins"
+  },
+  "80 Regional Coins (Seaside)": {
+    "kingdom": "Seaside",
+    "image": "images/regional_coins/regional_seaside.png",
+    "text": "80 Regional Coins"
+  },
+  "Koopa Freerunning (Seaside)": {
+    "kingdom": "Seaside",
+    "image": "images/misc/koopa_freerunning.png",
+    "text": "Koopa Freerunning"
+  },
+  "Outfit-Door (Seaside)": {
+    "kingdom": "Seaside",
+    "image": "images/outfits/outfit_seaside.png",
+    "text": "A Relaxing Dance"
+  },
+  "Plant 2 Seeds (Seaside)": {
+    "kingdom": "Seaside",
+    "image": "images/misc/seed.png",
+    "text": "Plant 2 Seeds"
+  },
+  "Plant 3 Seeds (Seaside)": {
+    "kingdom": "Seaside",
+    "image": "images/misc/seed.png",
+    "text": "Plant 3 Seeds"
+  },
+  "Plant 4 Seeds (Seaside)": {
+    "kingdom": "Seaside",
+    "image": "images/misc/seed.png",
+    "text": "Plant 4 Seeds"
+  },
+  "Seaside Kingdom: Sphynx Quiz Complete!": {
+    "kingdom": "Seaside",
+    "image": "images/misc/sphynx.png",
+    "text": "Seaside Kingdom: Sphynx Quiz Complete!"
+  },
+  "6 Moons from sub-areas (Seaside)": {
+    "kingdom": "Seaside",
+    "image": "images/misc/sub_area.png",
+    "text": "6 Moons from sub‑areas"
+  },
+  "8 Moons from sub-areas (Seaside)": {
+    "kingdom": "Seaside",
+    "image": "images/misc/sub_area.png",
+    "text": "8 Moons from sub‑areas"
+  },
+  "10 Moons from sub-areas (Seaside)": {
+    "kingdom": "Seaside",
+    "image": "images/misc/sub_area.png",
+    "text": "10 Moons from sub‑areas"
+  },
+  "Beach Volleyball: Champ! (Seaside)": {
+    "kingdom": "Seaside",
+    "image": "images/misc/ranking_board.png",
+    "text": "Beach Volleyball: Champ!"
+  },
+  "44 Moons (Luncheon)": {
+    "kingdom": "Luncheon",
+    "image": "images/moons/power_moon_luncheon.png",
+    "text": "44 Moons"
+  },
+  "46 Moons (Luncheon)": {
+    "kingdom": "Luncheon",
+    "image": "images/moons/power_moon_luncheon.png",
+    "text": "46 Moons"
+  },
+  "48 Moons (Luncheon)": {
+    "kingdom": "Luncheon",
+    "image": "images/moons/power_moon_luncheon.png",
+    "text": "48 Moons"
+  },
+  "50 Moons (Luncheon)": {
+    "kingdom": "Luncheon",
+    "image": "images/moons/power_moon_luncheon.png",
+    "text": "50 Moons"
+  },
+  "52 Moons (Luncheon)": {
+    "kingdom": "Luncheon",
+    "image": "images/moons/power_moon_luncheon.png",
+    "text": "52 Moons"
+  },
+  "54 Moons (Luncheon)": {
+    "kingdom": "Luncheon",
+    "image": "images/moons/power_moon_luncheon.png",
+    "text": "54 Moons"
+  },
+  "56 Moons (Luncheon)": {
+    "kingdom": "Luncheon",
+    "image": "images/moons/power_moon_luncheon.png",
+    "text": "56 Moons"
+  },
+  "50 Regional Coins (Luncheon)": {
+    "kingdom": "Luncheon",
+    "image": "images/regional_coins/regional_luncheon.png",
+    "text": "50 Regional Coins"
+  },
+  "55 Regional Coins (Luncheon)": {
+    "kingdom": "Luncheon",
+    "image": "images/regional_coins/regional_luncheon.png",
+    "text": "55 Regional Coins"
+  },
+  "60 Regional Coins (Luncheon)": {
+    "kingdom": "Luncheon",
+    "image": "images/regional_coins/regional_luncheon.png",
+    "text": "60 Regional Coins"
+  },
+  "65 Regional Coins (Luncheon)": {
+    "kingdom": "Luncheon",
+    "image": "images/regional_coins/regional_luncheon.png",
+    "text": "65 Regional Coins"
+  },
+  "70 Regional Coins (Luncheon)": {
+    "kingdom": "Luncheon",
+    "image": "images/regional_coins/regional_luncheon.png",
+    "text": "70 Regional Coins"
+  },
+  "75 Regional Coins (Luncheon)": {
+    "kingdom": "Luncheon",
+    "image": "images/regional_coins/regional_luncheon.png",
+    "text": "75 Regional Coins"
+  },
+  "80 Regional Coins (Luncheon)": {
+    "kingdom": "Luncheon",
+    "image": "images/regional_coins/regional_luncheon.png",
+    "text": "80 Regional Coins"
+  },
+  "Koopa Freerunning (Luncheon)": {
+    "kingdom": "Luncheon",
+    "image": "images/misc/koopa_freerunning.png",
+    "text": "Koopa Freerunning"
+  },
+  "Music-Toad (Luncheon)": {
+    "kingdom": "Luncheon",
+    "image": "images/misc/music_toad.png",
+    "text": "Music-Toad"
+  },
+  "8 Moons from sub-areas (Luncheon)": {
+    "kingdom": "Luncheon",
+    "image": "images/misc/sub_area.png",
+    "text": "8 Moons from sub‑areas"
+  },
+  "10 Moons from sub-areas (Luncheon)": {
+    "kingdom": "Luncheon",
+    "image": "images/misc/sub_area.png",
+    "text": "10 Moons from sub‑areas"
+  },
+  "12 Moons from sub-areas (Luncheon)": {
+    "kingdom": "Luncheon",
+    "image": "images/misc/sub_area.png",
+    "text": "12 Moons from sub‑areas"
+  },
+  "14 Moons from sub-areas (Luncheon)": {
+    "kingdom": "Luncheon",
+    "image": "images/misc/sub_area.png",
+    "text": "14 Moons from sub‑areas"
+  },
+  "Tostarena-Tourist in the Luncheon Kingdom!": {
+    "kingdom": "Luncheon",
+    "image": "images/misc/tostarenan.png",
+    "text": "Tostarena-Tourist in the Luncheon Kingdom!"
+  },
+  "2 Moons from Golden Turnips": {
+    "kingdom": "All",
+    "image": "images/misc/turnip.png",
+    "text": "2 Moons from Golden Turnips"
+  },
+  "3 Moons from Golden Turnips": {
+    "kingdom": "All",
+    "image": "images/misc/turnip.png",
+    "text": "3 Moons from Golden Turnips"
+  },
+  "Treasure Beneath the Cheese Rocks (Luncheon)": {
+    "kingdom": "Luncheon",
+    "image": "images/moons/power_moon_luncheon.png",
+    "text": "Treasure Beneath the Cheese Rocks"
+  },
+  "Mechanic: Repairs Complete! (Luncheon)": {
+    "kingdom": "Luncheon",
+    "image": "images/outfits/outfit_mechanic.png",
+    "text": "Mechanic: Repairs Complete!"
+  },
+  "Diving from the Big Pot! (Luncheon)": {
+    "kingdom": "Luncheon",
+    "image": "images/moons/power_moon_luncheon.png",
+    "text": "Diving from the Big Pot!"
+  },
+  "6 Moons (Ruined)": {
+    "kingdom": "Ruined",
+    "image": "images/moons/power_moon.png",
+    "text": "6 Moons"
+  },
+  "8 Moons (Ruined)": {
+    "kingdom": "Ruined",
+    "image": "images/moons/power_moon.png",
+    "text": "8 Moons"
+  },
+  "2 Moons from sub-areas (Ruined)": {
+    "kingdom": "Ruined",
+    "image": "images/misc/sub_area.png",
+    "text": "2 Moons from sub‑areas"
+  },
+  "4 Moons from sub-areas (Ruined)": {
+    "kingdom": "Ruined",
+    "image": "images/misc/sub_area.png",
+    "text": "4 Moons from sub‑areas"
+  },
+  "40 Moons (Bowser's)": {
+    "kingdom": "Bowser's",
+    "image": "images/moons/power_moon_bowsers.png",
+    "text": "40 Moons"
+  },
+  "42 Moons (Bowser's)": {
+    "kingdom": "Bowser's",
+    "image": "images/moons/power_moon_bowsers.png",
+    "text": "42 Moons"
+  },
+  "44 Moons (Bowser's)": {
+    "kingdom": "Bowser's",
+    "image": "images/moons/power_moon_bowsers.png",
+    "text": "44 Moons"
+  },
+  "46 Moons (Bowser's)": {
+    "kingdom": "Bowser's",
+    "image": "images/moons/power_moon_bowsers.png",
+    "text": "46 Moons"
+  },
+  "48 Moons (Bowser's)": {
+    "kingdom": "Bowser's",
+    "image": "images/moons/power_moon_bowsers.png",
+    "text": "48 Moons"
+  },
+  "50 Moons (Bowser's)": {
+    "kingdom": "Bowser's",
+    "image": "images/moons/power_moon_bowsers.png",
+    "text": "50 Moons"
+  },
+  "50 Regional Coins (Bowser's)": {
+    "kingdom": "Bowser's",
+    "image": "images/regional_coins/regional_bowsers.png",
+    "text": "50 Regional Coins"
+  },
+  "55 Regional Coins (Bowser's)": {
+    "kingdom": "Bowser's",
+    "image": "images/regional_coins/regional_bowsers.png",
+    "text": "55 Regional Coins"
+  },
+  "60 Regional Coins (Bowser's)": {
+    "kingdom": "Bowser's",
+    "image": "images/regional_coins/regional_bowsers.png",
+    "text": "60 Regional Coins"
+  },
+  "65 Regional Coins (Bowser's)": {
+    "kingdom": "Bowser's",
+    "image": "images/regional_coins/regional_bowsers.png",
+    "text": "65 Regional Coins"
+  },
+  "70 Regional Coins (Bowser's)": {
+    "kingdom": "Bowser's",
+    "image": "images/regional_coins/regional_bowsers.png",
+    "text": "70 Regional Coins"
+  },
+  "75 Regional Coins (Bowser's)": {
+    "kingdom": "Bowser's",
+    "image": "images/regional_coins/regional_bowsers.png",
+    "text": "75 Regional Coins"
+  },
+  "80 Regional Coins (Bowser's)": {
+    "kingdom": "Bowser's",
+    "image": "images/regional_coins/regional_bowsers.png",
+    "text": "80 Regional Coins"
+  },
+  "Bonneter-Scientist (Bowser's)": {
+    "kingdom": "Bowser's",
+    "image": "images/misc/bonneter.png",
+    "text": "Bonneter-Scientist"
+  },
+  "Koopa Freerunning (Bowser's)": {
+    "kingdom": "Bowser's",
+    "image": "images/misc/koopa_freerunning.png",
+    "text": "Koopa Freerunning"
+  },
+  "Outfit-Door (Bowser's)": {
+    "kingdom": "Bowser's",
+    "image": "images/outfits/outfit_bowsers.png",
+    "text": "Scene of Crossing the Poison Swamp "
+  },
+  "2 Moons from Pokio-Spots (Bowser's)": {
+    "kingdom": "Bowser's",
+    "image": "images/captures/pokio.png",
+    "text": "2 Moons from Pokio‑Spots"
+  },
+  "3 Moons from Pokio-Spots (Bowser's)": {
+    "kingdom": "Bowser's",
+    "image": "images/captures/pokio.png",
+    "text": "3 Moons from Pokio‑Spots"
+  },
+  "4 Moons from Pokio-Spots (Bowser's)": {
+    "kingdom": "Bowser's",
+    "image": "images/captures/pokio.png",
+    "text": "4 Moons from Pokio‑Spots"
+  },
+  "8 Moons from sub-areas (Bowser's)": {
+    "kingdom": "Bowser's",
+    "image": "images/misc/sub_area.png",
+    "text": "8 Moons from sub‑areas"
+  },
+  "10 Moons from sub-areas (Bowser's)": {
+    "kingdom": "Bowser's",
+    "image": "images/misc/sub_area.png",
+    "text": "10 Moons from sub‑areas"
+  },
+  "12 Moons from sub-areas (Bowser's)": {
+    "kingdom": "Bowser's",
+    "image": "images/misc/sub_area.png",
+    "text": "12 Moons from sub‑areas"
+  },
+  "Ogre Extermination: On the Distant Island! (Bowser's)": {
+    "kingdom": "Bowser's",
+    "image": "images/moons/power_moon_bowsers.png",
+    "text": "Ogre Extermination: On the Distant Island!"
+  },
+  "Yoofoe-Invader in Bowser's Kingdom!": {
+    "kingdom": "Bowser's",
+    "image": "images/misc/invader.png",
+    "text": "Invader in Bowser's Castle"
+  },
+  "18 Moons (Moon)": {
+    "kingdom": "Moon",
+    "image": "images/moons/power_moon_moon.png",
+    "text": "18 Moons"
+  },
+  "20 Moons (Moon)": {
+    "kingdom": "Moon",
+    "image": "images/moons/power_moon_moon.png",
+    "text": "20 Moons"
+  },
+  "22 Moons (Moon)": {
+    "kingdom": "Moon",
+    "image": "images/moons/power_moon_moon.png",
+    "text": "22 Moons"
+  },
+  "24 Moons (Moon)": {
+    "kingdom": "Moon",
+    "image": "images/moons/power_moon_moon.png",
+    "text": "24 Moons"
+  },
+  "26 Moons (Moon)": {
+    "kingdom": "Moon",
+    "image": "images/moons/power_moon_moon.png",
+    "text": "26 Moons"
+  },
+  "30 Regional Coins (Moon)": {
+    "kingdom": "Moon",
+    "image": "images/regional_coins/regional_moon.png",
+    "text": "30 Regional Coins"
+  },
+  "35 Regional Coins (Moon)": {
+    "kingdom": "Moon",
+    "image": "images/regional_coins/regional_moon.png",
+    "text": "35 Regional Coins"
+  },
+  "40 Regional Coins (Moon)": {
+    "kingdom": "Moon",
+    "image": "images/regional_coins/regional_moon.png",
+    "text": "40 Regional Coins"
+  },
+  "45 Regional Coins (Moon)": {
+    "kingdom": "Moon",
+    "image": "images/regional_coins/regional_moon.png",
+    "text": "45 Regional Coins"
+  },
+  "50 Regional Coins (Moon)": {
+    "kingdom": "Moon",
+    "image": "images/regional_coins/regional_moon.png",
+    "text": "50 Regional Coins"
+  },
+  "Koopa Freerunning (Moon)": {
+    "kingdom": "Moon",
+    "image": "images/misc/koopa_freerunning.png",
+    "text": "Koopa Freerunning"
+  },
+  "2 Moons (Moon Caves)": {
+    "kingdom": "Moon",
+    "image": "images/moons/power_moon_moon.png",
+    "text": "2 Moon Cave Moons"
+  },
+  "3 Moons (Moon Caves)": {
+    "kingdom": "Moon",
+    "image": "images/moons/power_moon_moon.png",
+    "text": "3 Moon Cave Moons"
+  },
+  "4 Moons (Moon Caves)": {
+    "kingdom": "Moon",
+    "image": "images/moons/power_moon_moon.png",
+    "text": "4 Moon Cave Moons"
+  },
+  "Moon Kingdom: Sphynx Quiz Complete!": {
+    "kingdom": "Moon",
+    "image": "images/misc/sphynx.png",
+    "text": "Moon Kingdom: Sphynx Quiz Complete!"
+  },
+  "2 Moons from sub-areas (Moon)": {
+    "kingdom": "Moon",
+    "image": "images/misc/sub_area.png",
+    "text": "2 Moons from sub‑areas"
+  },
+  "4 Moons from sub-areas (Moon)": {
+    "kingdom": "Moon",
+    "image": "images/misc/sub_area.png",
+    "text": "4 Moons from sub‑areas"
+  },
+  "Tostarena-Tourist in the Moon Kingdom!": {
+    "kingdom": "All",
+    "image": "images/misc/tostarenan.png",
+    "text": "Tostarena-Tourist in the Moon Kingdom!"
+  },
+  "Koopa Trace-Walking (Moon)": {
+    "kingdom": "Moon",
+    "image": "images/misc/koopa_tracewalking.png",
+    "text": "Koopa Trace‑Walking"
+  },
+  "Doctor in the House! (Moon)": {
+    "kingdom": "Moon",
+    "image": "images/outfits/outfit_doctor.png",
+    "text": "Doctor in the House!"
+  },
+  "Jumping High as a Frog (Moon)": {
+    "kingdom": "Moon",
+    "image": "images/captures/frog.png",
+    "text": "Jumping High as a Frog"
+  },
+  "20 Moons (Mushroom)": {
+    "kingdom": "Mushroom",
+    "image": "images/moons/power_moon_mushroom.png",
+    "text": "20 Moons"
+  },
+  "22 Moons (Mushroom)": {
+    "kingdom": "Mushroom",
+    "image": "images/moons/power_moon_mushroom.png",
+    "text": "22 Moons"
+  },
+  "24 Moons (Mushroom)": {
+    "kingdom": "Mushroom",
+    "image": "images/moons/power_moon_mushroom.png",
+    "text": "24 Moons"
+  },
+  "26 Moons (Mushroom)": {
+    "kingdom": "Mushroom",
+    "image": "images/moons/power_moon_mushroom.png",
+    "text": "26 Moons"
+  },
+  "28 Moons (Mushroom)": {
+    "kingdom": "Mushroom",
+    "image": "images/moons/power_moon_mushroom.png",
+    "text": "28 Moons"
+  },
+  "30 Moons (Mushroom)": {
+    "kingdom": "Mushroom",
+    "image": "images/moons/power_moon_mushroom.png",
+    "text": "30 Moons"
+  },
+  "32 Moons (Mushroom)": {
+    "kingdom": "Mushroom",
+    "image": "images/moons/power_moon_mushroom.png",
+    "text": "32 Moons"
+  },
+  "10 Moons from Toadette-Achievements": {
+    "kingdom": "Mushroom",
+    "image": "images/misc/toadette.png",
+    "text": "10 Moons from Toadette‑Achievements"
+  },
+  "15 Moons from Toadette-Achievements": {
+    "kingdom": "Mushroom",
+    "image": "images/misc/toadette.png",
+    "text": "15 Moons from Toadette‑Achievements"
+  },
+  "20 Moons from Toadette-Achievements": {
+    "kingdom": "Mushroom",
+    "image": "images/misc/toadette.png",
+    "text": "20 Moons from Toadette‑Achievements"
+  },
+  "50 Regional Coins (Mushroom)": {
+    "kingdom": "Mushroom",
+    "image": "images/regional_coins/regional_mushroom.png",
+    "text": "50 Regional Coins"
+  },
+  "55 Regional Coins (Mushroom)": {
+    "kingdom": "Mushroom",
+    "image": "images/regional_coins/regional_mushroom.png",
+    "text": "55 Regional Coins"
+  },
+  "60 Regional Coins (Mushroom)": {
+    "kingdom": "Mushroom",
+    "image": "images/regional_coins/regional_mushroom.png",
+    "text": "60 Regional Coins"
+  },
+  "65 Regional Coins (Mushroom)": {
+    "kingdom": "Mushroom",
+    "image": "images/regional_coins/regional_mushroom.png",
+    "text": "65 Regional Coins"
+  },
+  "70 Regional Coins (Mushroom)": {
+    "kingdom": "Mushroom",
+    "image": "images/regional_coins/regional_mushroom.png",
+    "text": "70 Regional Coins"
+  },
+  "75 Regional Coins (Mushroom)": {
+    "kingdom": "Mushroom",
+    "image": "images/regional_coins/regional_mushroom.png",
+    "text": "75 Regional Coins"
+  },
+  "80 Regional Coins (Mushroom)": {
+    "kingdom": "Mushroom",
+    "image": "images/regional_coins/regional_mushroom.png",
+    "text": "80 Regional Coins"
+  },
+  "Koopa Freerunning (Mushroom)": {
+    "kingdom": "Mushroom",
+    "image": "images/misc/koopa_freerunning.png",
+    "text": "Koopa Freerunning"
+  },
+  "Music-Toad (Mushroom)": {
+    "kingdom": "Mushroom",
+    "image": "images/misc/music_toad.png",
+    "text": "Music-Toad"
+  },
+  "Outfit-Door (Mushroom)": {
+    "kingdom": "Mushroom",
+    "image": "images/outfits/outfit_mushroom.png",
+    "text": "Totally Classic!"
+  },
+  "2 Moons from sub-areas (Mushroom)": {
+    "kingdom": "Mushroom",
+    "image": "images/misc/sub_area.png",
+    "text": "2 Moons from sub‑areas"
+  },
+  "4 Moons from sub-areas (Mushroom)": {
+    "kingdom": "Mushroom",
+    "image": "images/misc/sub_area.png",
+    "text": "4 Moons from sub‑areas"
+  },
+  "Tostarena-Tourist in the Mushroom Kingdom!": {
+    "kingdom": "Mushroom",
+    "image": "images/misc/tostarenan.png",
+    "text": "Tostarena-Tourist in the Mushroom Kingdom!"
+  },
+  "Herding Sheep at Peach's Castle (Mushroom)": {
+    "kingdom": "Mushroom",
+    "image": "images/misc/sheep.png",
+    "text": "Herding Sheep at Peach's Castle"
+  },
+  "Eating Fruit with Yoshi: First Serving! (Mushroom)": {
+    "kingdom": "Mushroom",
+    "image": "images/captures/yoshi.png",
+    "text": "Eating Fruit with Yoshi: First Serving!"
+  },
+  "Eating Fruit with Yoshi: Second Serving! (Mushroom)": {
+    "kingdom": "Mushroom",
+    "image": "images/captures/yoshi.png",
+    "text": "Eating Fruit with Yoshi: Second Serving!"
+  },
+  "Eating Fruit with Yoshi: Third Serving! (Mushroom)": {
+    "kingdom": "Mushroom",
+    "image": "images/captures/yoshi.png",
+    "text": "Eating Fruit with Yoshi: Third Serving!"
+  },
+  "Mario Picture-Match (Mushroom)": {
+    "kingdom": "Mushroom",
+    "image": "images/captures/mario_picture_match.png",
+    "text": "Mario Picture-Match"
+  },
+  "Knucklotec Rematch in the Mushroom Kingdom!": {
+    "kingdom": "Mushroom",
+    "image": "images/moons/multi_moon.png",
+    "text": "Knucklotec Rematch in the Mushroom Kingdom!"
+  },
+  "Torkdrift Rematch in the Mushroom Kingdom!": {
+    "kingdom": "Mushroom",
+    "image": "images/moons/multi_moon.png",
+    "text": "Torkdrift Rematch in the Mushroom Kingdom!"
+  },
+  "Mechawiggler Rematch in the Mushroom Kingdom!": {
+    "kingdom": "Mushroom",
+    "image": "images/moons/multi_moon.png",
+    "text": "Mechawiggler Rematch in the Mushroom Kingdom!"
+  },
+  "Mollusque-Lanceur Rematch in the Mushroom Kingdom!": {
+    "kingdom": "Mushroom",
+    "image": "images/moons/multi_moon.png",
+    "text": "Mollusque-Lanceur Rematch in the Mushroom Kingdom!"
+  },
+  "Cookatiel Rematch in the Mushroom Kingdom!": {
+    "kingdom": "Mushroom",
+    "image": "images/moons/multi_moon.png",
+    "text": "Cookatiel Rematch in the Mushroom Kingdom!"
+  },
+  "Ruined Dragon Rematch in the Mushroom Kingdom!": {
+    "kingdom": "Mushroom",
+    "image": "images/moons/multi_moon.png",
+    "text": "Ruined Dragon Rematch in the Mushroom Kingdom!"
+  },
+  "2 Boss Rematches (Mushroom)": {
+    "kingdom": "Mushroom",
+    "image": "images/moons/multi_moon.png",
+    "text": "2 Boss Rematches"
+  },
+  "3 Boss Rematches (Mushroom)": {
+    "kingdom": "Mushroom",
+    "image": "images/moons/multi_moon.png",
+    "text": "3 Boss Rematches"
+  },
+  "4 Boss Rematches (Mushroom)": {
+    "kingdom": "Mushroom",
+    "image": "images/moons/multi_moon.png",
+    "text": "4 Boss Rematches"
+  },
+  "9 Unique Life-Up Hearts (excl. Shops)": {
+    "kingdom": "All",
+    "image": "images/misc/life_up_heart.png",
+    "text": "9 Unique Life-Up Hearts"
+  },
+  "11 Unique Life-Up Hearts (excl. Shops)": {
+    "kingdom": "All",
+    "image": "images/misc/life_up_heart.png",
+    "text": "11 Unique Life-Up Hearts"
+  },
+  "13 Unique Life-Up Hearts (excl. Shops)": {
+    "kingdom": "All",
+    "image": "images/misc/life_up_heart.png",
+    "text": "13 Unique Life-Up Hearts"
+  },
+  "Open 6 Moon Rocks": {
+    "kingdom": "All",
+    "image": "images/misc/moon_rock.png",
+    "text": "Open 6 Moon Rocks"
+  },
+  "Open 7 Moon Rocks": {
+    "kingdom": "All",
+    "image": "images/misc/moon_rock.png",
+    "text": "Open 7 Moon Rocks"
+  },
+  "Open 8 Moon Rocks": {
+    "kingdom": "All",
+    "image": "images/misc/moon_rock.png",
+    "text": "Open 8 Moon Rocks"
+  },
+  "Open 9 Moon Rocks": {
+    "kingdom": "All",
+    "image": "images/misc/moon_rock.png",
+    "text": "Open 9 Moon Rocks"
+  },
+  "13 Moons from 8-bit Sections": {
+    "kingdom": "All",
+    "image": "images/moons/8bit_moon.png",
+    "text": "13 Moons from 8-bit Sections"
+  },
+  "15 Moons from 8-bit Sections": {
+    "kingdom": "All",
+    "image": "images/moons/8bit_moon.png",
+    "text": "15 Moons from 8-bit Sections"
+  },
+  "17 Moons from 8-bit Sections": {
+    "kingdom": "All",
+    "image": "images/moons/8bit_moon.png",
+    "text": "17 Moons from 8-bit Sections"
+  },
+  "19 Moons from 8-bit Sections": {
+    "kingdom": "All",
+    "image": "images/moons/8bit_moon.png",
+    "text": "19 Moons from 8-bit Sections"
+  },
+  "2 Moons from Binoculars": {
+    "kingdom": "All",
+    "image": "images/captures/binoculars.png",
+    "text": "2 Moons from Binoculars"
+  },
+  "3 Moons from Binoculars": {
+    "kingdom": "All",
+    "image": "images/captures/binoculars.png",
+    "text": "3 Moons from Binoculars"
+  },
+  "4 Moons from Binoculars": {
+    "kingdom": "All",
+    "image": "images/captures/binoculars.png",
+    "text": "4 Moons from Binoculars"
+  },
+  "5 Moons from Birds": {
+    "kingdom": "All",
+    "image": "images/misc/bird.png",
+    "text": "5 Moons from Birds"
+  },
+  "6 Moons from Birds": {
+    "kingdom": "All",
+    "image": "images/misc/bird.png",
+    "text": "6 Moons from Birds"
+  },
+  "7 Moons from Birds": {
+    "kingdom": "All",
+    "image": "images/misc/bird.png",
+    "text": "7 Moons from Birds"
+  },
+  "6 Captain Toad Moons": {
+    "kingdom": "All",
+    "image": "images/misc/captain_toad.png",
+    "text": "6 Captain Toad Moons"
+  },
+  "7 Captain Toad Moons": {
+    "kingdom": "All",
+    "image": "images/misc/captain_toad.png",
+    "text": "7 Captain Toad Moons"
+  },
+  "8 Captain Toad Moons": {
+    "kingdom": "All",
+    "image": "images/misc/captain_toad.png",
+    "text": "8 Captain Toad Moons"
+  },
+  "4 Moons from Wooden Crates": {
+    "kingdom": "All",
+    "image": "images/misc/crate.png",
+    "text": "4 Moons from Wooden Crates"
+  },
+  "5 Moons from Wooden Crates": {
+    "kingdom": "All",
+    "image": "images/misc/crate.png",
+    "text": "5 Moons from Wooden Crates"
+  },
+  "6 Moons from Wooden Crates": {
+    "kingdom": "All",
+    "image": "images/misc/crate.png",
+    "text": "6 Moons from Wooden Crates"
+  },
+  "4 Moons from Goombas": {
+    "kingdom": "All",
+    "image": "images/captures/goomba_capture.png",
+    "text": "4 Moons from Goombas"
+  },
+  "5 Moons from Goombas": {
+    "kingdom": "All",
+    "image": "images/captures/goomba_capture.png",
+    "text": "5 Moons from Goombas"
+  },
+  "6 Moons from Goombas": {
+    "kingdom": "All",
+    "image": "images/captures/goomba_capture.png",
+    "text": "6 Moons from Goombas"
+  },
+  "7 Moons from Goombas": {
+    "kingdom": "All",
+    "image": "images/captures/goomba_capture.png",
+    "text": "7 Moons from Goombas"
+  },
+  "2 Moons from Hat-and-Seek": {
+    "kingdom": "All",
+    "image": "images/misc/bonneter.png",
+    "text": "2 Moons from Hat-and-Seek"
+  },
+  "3 Moons from Hat-and-Seek": {
+    "kingdom": "All",
+    "image": "images/misc/bonneter.png",
+    "text": "3 Moons from Hat-and-Seek"
+  },
+  "4 Moons from Hat-and-Seek": {
+    "kingdom": "All",
+    "image": "images/misc/bonneter.png",
+    "text": "4 Moons from Hat-and-Seek"
+  },
+  "6 Hat-Throwing Moons": {
+    "kingdom": "All",
+    "image": "images/misc/shiny_hat_spot.png",
+    "text": "6 Hat-Throwing Moons"
+  },
+  "8 Hat-Throwing Moons": {
+    "kingdom": "All",
+    "image": "images/misc/shiny_hat_spot.png",
+    "text": "8 Hat-Throwing Moons"
+  },
+  "10 Hat-Throwing Moons": {
+    "kingdom": "All",
+    "image": "images/misc/shiny_hat_spot.png",
+    "text": "10 Hat-Throwing Moons"
+  },
+  "Look at 6 Hint Arts": {
+    "kingdom": "All",
+    "image": "images/misc/hint_art.png",
+    "text": "Look at 6 Hint Arts"
+  },
+  "Look at 7 Hint Arts": {
+    "kingdom": "All",
+    "image": "images/misc/hint_art.png",
+    "text": "Look at 7 Hint Arts"
+  },
+  "Look at 8 Hint Arts": {
+    "kingdom": "All",
+    "image": "images/misc/hint_art.png",
+    "text": "Look at 8 Hint Arts"
+  },
+  "Look at 9 Hint Arts": {
+    "kingdom": "All",
+    "image": "images/misc/hint_art.png",
+    "text": "Look at 9 Hint Arts"
+  },
+  "4 Moons from Hint Art": {
+    "kingdom": "All",
+    "image": "images/misc/hint_art.png",
+    "text": "4 Moons from Hint Art"
+  },
+  "5 Moons from Hint Art": {
+    "kingdom": "All",
+    "image": "images/misc/hint_art.png",
+    "text": "5 Moons from Hint Art"
+  },
+  "6 Moons from Hint Art": {
+    "kingdom": "All",
+    "image": "images/misc/hint_art.png",
+    "text": "6 Moons from Hint Art"
+  },
+  "6 Moons from Keys": {
+    "kingdom": "All",
+    "image": "images/misc/key.png",
+    "text": "6 Moons from Keys"
+  },
+  "8 Moons from Keys": {
+    "kingdom": "All",
+    "image": "images/misc/key.png",
+    "text": "8 Moons from Keys"
+  },
+  "10 Moons from Keys": {
+    "kingdom": "All",
+    "image": "images/misc/key.png",
+    "text": "10 Moons from Keys"
+  },
+  "12 Moons from Keys": {
+    "kingdom": "All",
+    "image": "images/misc/key.png",
+    "text": "12 Moons from Keys"
+  },
+  "6 Moons from Koopa Freerunning": {
+    "kingdom": "All",
+    "image": "images/misc/koopa_freerunning.png",
+    "text": "6 Moons from Koopa Freerunning"
+  },
+  "8 Moons from Koopa Freerunning": {
+    "kingdom": "All",
+    "image": "images/misc/koopa_freerunning.png",
+    "text": "8 Moons from Koopa Freerunning"
+  },
+  "10 Moons from Koopa Freerunning": {
+    "kingdom": "All",
+    "image": "images/misc/koopa_freerunning.png",
+    "text": "10 Moons from Koopa Freerunning"
+  },
+  "12 Moons from Koopa Freerunning": {
+    "kingdom": "All",
+    "image": "images/misc/koopa_freerunning.png",
+    "text": "12 Moons from Koopa Freerunning"
+  },
+  "8 Moons from Moon Shards": {
+    "kingdom": "All",
+    "image": "images/misc/moon_shard.png",
+    "text": "8 Moons from Moon Shards"
+  },
+  "10 Moons from Moon Shards": {
+    "kingdom": "All",
+    "image": "images/misc/moon_shard.png",
+    "text": "10 Moons from Moon Shards"
+  },
+  "12 Moons from Moon Shards": {
+    "kingdom": "All",
+    "image": "images/misc/moon_shard.png",
+    "text": "12 Moons from Moon Shards"
+  },
+  "14 Moons from Moon Shards": {
+    "kingdom": "All",
+    "image": "images/misc/moon_shard.png",
+    "text": "14 Moons from Moon Shards"
+  },
+  "10 Moons from Music Notes": {
+    "kingdom": "All",
+    "image": "images/misc/notes.png",
+    "text": "10 Moons from Music Notes"
+  },
+  "12 Moons from Music Notes": {
+    "kingdom": "All",
+    "image": "images/misc/notes.png",
+    "text": "12 Moons from Music Notes"
+  },
+  "14 Moons from Music Notes": {
+    "kingdom": "All",
+    "image": "images/misc/notes.png",
+    "text": "14 Moons from Music Notes"
+  },
+  "16 Moons from Music Notes": {
+    "kingdom": "All",
+    "image": "images/misc/notes.png",
+    "text": "16 Moons from Music Notes"
+  },
+  "2 Moons from Music-Toad": {
+    "kingdom": "All",
+    "image": "images/misc/music_toad.png",
+    "text": "2 Moons from Music-Toad"
+  },
+  "3 Moons from Music-Toad": {
+    "kingdom": "All",
+    "image": "images/misc/music_toad.png",
+    "text": "3 Moons from Music-Toad"
+  },
+  "6 Moons from Peach": {
+    "kingdom": "All",
+    "image": "images/misc/peach.png",
+    "text": "6 Moons from Peach"
+  },
+  "7 Moons from Peach": {
+    "kingdom": "All",
+    "image": "images/misc/peach.png",
+    "text": "7 Moons from Peach"
+  },
+  "8 Moons from Peach": {
+    "kingdom": "All",
+    "image": "images/misc/peach.png",
+    "text": "8 Moons from Peach"
+  },
+  "9 Moons from Peach": {
+    "kingdom": "All",
+    "image": "images/misc/peach.png",
+    "text": "9 Moons from Peach"
+  },
+  "4 Moons from Rabbits": {
+    "kingdom": "All",
+    "image": "images/misc/rabbit.png",
+    "text": "4 Moons from Rabbits"
+  },
+  "6 Moons from Rabbits": {
+    "kingdom": "All",
+    "image": "images/misc/rabbit.png",
+    "text": "6 Moons from Rabbits"
+  },
+  "8 Moons from Rabbits": {
+    "kingdom": "All",
+    "image": "images/misc/rabbit.png",
+    "text": "8 Moons from Rabbits"
+  },
+  "Plant 6 Seeds (Total)": {
+    "kingdom": "All",
+    "image": "images/misc/seed.png",
+    "text": "Plant 6 Seeds"
+  },
+  "Plant 7 Seeds (Total)": {
+    "kingdom": "All",
+    "image": "images/misc/seed.png",
+    "text": "Plant 7 Seeds"
+  },
+  "Plant 8 Seeds (Total)": {
+    "kingdom": "All",
+    "image": "images/misc/seed.png",
+    "text": "Plant 8 Seeds"
+  },
+  "Plant 9 Seeds (Total)": {
+    "kingdom": "All",
+    "image": "images/misc/seed.png",
+    "text": "Plant 9 Seeds"
+  },
+  "Plant 10 Seeds (Total)": {
+    "kingdom": "All",
+    "image": "images/misc/seed.png",
+    "text": "Plant 10 Seeds"
+  },
+  "2 Moons from Seeds": {
+    "kingdom": "All",
+    "image": "images/misc/seed.png",
+    "text": "2 Moons from Seeds"
+  },
+  "3 Moons from Seeds": {
+    "kingdom": "All",
+    "image": "images/misc/seed.png",
+    "text": "3 Moons from Seeds"
+  },
+  "4 Moons from Seeds": {
+    "kingdom": "All",
+    "image": "images/misc/seed.png",
+    "text": "4 Moons from Seeds"
+  },
+  "3 Moons from Shiny Rocks": {
+    "kingdom": "All",
+    "image": "images/misc/rock.png",
+    "text": "3 Moons from Shiny Rocks"
+  },
+  "4 Moons from Shiny Rocks": {
+    "kingdom": "All",
+    "image": "images/misc/rock.png",
+    "text": "4 Moons from Shiny Rocks"
+  },
+  "5 Moons from Shiny Rocks": {
+    "kingdom": "All",
+    "image": "images/misc/rock.png",
+    "text": "5 Moons from Shiny Rocks"
+  },
+  "9 Timer Challenges": {
+    "kingdom": "All",
+    "image": "images/misc/timer_challenge.png",
+    "text": "9 Timer Challenges"
+  },
+  "11 Timer Challenges": {
+    "kingdom": "All",
+    "image": "images/misc/timer_challenge.png",
+    "text": "11 Timer Challenges"
+  },
+  "13 Timer Challenges": {
+    "kingdom": "All",
+    "image": "images/misc/timer_challenge.png",
+    "text": "13 Timer Challenges"
+  },
+  "15 Timer Challenges": {
+    "kingdom": "All",
+    "image": "images/misc/timer_challenge.png",
+    "text": "15 Timer Challenges"
+  },
+  "17 Timer Challenges": {
+    "kingdom": "All",
+    "image": "images/misc/timer_challenge.png",
+    "text": "17 Timer Challenges"
+  },
+  "19 Timer Challenges": {
+    "kingdom": "All",
+    "image": "images/misc/timer_challenge.png",
+    "text": "19 Timer Challenges"
+  },
+  "21 Timer Challenges": {
+    "kingdom": "All",
+    "image": "images/misc/timer_challenge.png",
+    "text": "21 Timer Challenges"
+  },
+  "11 Treasure Chest Moons": {
+    "kingdom": "All",
+    "image": "images/misc/treasure_chest.png",
+    "text": "11 Treasure Chest Moons"
+  },
+  "13 Treasure Chest Moons": {
+    "kingdom": "All",
+    "image": "images/misc/treasure_chest.png",
+    "text": "13 Treasure Chest Moons"
+  },
+  "15 Treasure Chest Moons": {
+    "kingdom": "All",
+    "image": "images/misc/treasure_chest.png",
+    "text": "15 Treasure Chest Moons"
+  },
+  "17 Treasure Chest Moons": {
+    "kingdom": "All",
+    "image": "images/misc/treasure_chest.png",
+    "text": "17 Treasure Chest Moons"
+  },
+  "19 Treasure Chest Moons": {
+    "kingdom": "All",
+    "image": "images/misc/treasure_chest.png",
+    "text": "19 Treasure Chest Moons"
+  },
+  "4 Warp-Painting Moons": {
+    "kingdom": "All",
+    "image": "images/misc/warp_painting.png",
+    "text": "4 Warp‑Painting Moons"
+  },
+  "5 Warp-Painting Moons": {
+    "kingdom": "All",
+    "image": "images/misc/warp_painting.png",
+    "text": "5 Warp‑Painting Moons"
+  },
+  "6 Warp-Painting Moons": {
+    "kingdom": "All",
+    "image": "images/misc/warp_painting.png",
+    "text": "6 Warp‑Painting Moons"
+  },
+  "7 Warp-Painting Moons": {
+    "kingdom": "All",
+    "image": "images/misc/warp_painting.png",
+    "text": "7 Warp‑Painting Moons"
+  },
+  "Purchase 6 Unique Moons": {
+    "kingdom": "All",
+    "image": "images/moons/purchase_moon.png",
+    "text": "Purchase 6 Unique Moons"
+  },
+  "Purchase 7 Unique Moons": {
+    "kingdom": "All",
+    "image": "images/moons/purchase_moon.png",
+    "text": "Purchase 7 Unique Moons"
+  },
+  "Purchase 8 Unique Moons": {
+    "kingdom": "All",
+    "image": "images/moons/purchase_moon.png",
+    "text": "Purchase 8 Unique Moons"
+  },
+  "Purchase 9 Unique Moons": {
+    "kingdom": "All",
+    "image": "images/moons/purchase_moon.png",
+    "text": "Purchase 9 Unique Moons"
+  },
+  "1 Moon from Lakitu-Fishing": {
+    "kingdom": "All",
+    "image": "images/captures/lakitu_capture.png",
+    "text": "1 Moon from Lakitu‑Fishing"
+  },
+  "2 Moons from Lakitu-Fishing": {
+    "kingdom": "All",
+    "image": "images/captures/lakitu_capture.png",
+    "text": "2 Moons from Lakitu‑Fishing"
+  },
+  "3 Moons from Lakitu-Fishing": {
+    "kingdom": "All",
+    "image": "images/captures/lakitu_capture.png",
+    "text": "3 Moons from Lakitu‑Fishing"
   }
 }
+
+
+

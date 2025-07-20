@@ -362,7 +362,7 @@
     "kingdom": "Wooded",
     "image": "images/moons/power_moon_wooded.png",
     "difficulty": 6,
-    "text": "5 Moons"
+    "text": "5 Deep Woods Moons"
   },
   "45 Regional Coins (Sand)": {
     "kingdom": "Sand",
@@ -569,7 +569,7 @@
     "kingdom": "Wooded",
     "image": "images/moons/power_moon_wooded.png",
     "difficulty": 9,
-    "text": "6 Moons"
+    "text": "6 Deep Woods Moons"
   },
   "22 Unique Captures": {
     "kingdom": "All",
@@ -689,7 +689,7 @@
   },
   "10 Moons from Nuts": {
     "kingdom": "Wooded",
-    "image": "images/moons/power_moon_wooded.png",
+    "image": "images/misc/nut.png",
     "difficulty": 11,
     "text": "10 Nut Moons"
   },
@@ -811,9 +811,9 @@
   },
   "2 Moons from Goombas": {
     "kingdom": "All",
-    "image": "images/captures/gooma_capture.png",
+    "image": "images/captures/goomba_capture.png",
     "difficulty": 13,
-    "text": "2 Moons from Goombas"
+    "text": "2 Goomba Moons"
   },
   "6 Multi Moons": {
     "kingdom": "All",
@@ -1246,7 +1246,7 @@
     "kingdom": "All",
     "image": "images/captures/goomba_capture.png",
     "difficulty": 20,
-    "text": "3 Moons from Goombas"
+    "text": "3 Goomba Moons"
   },
   "7 Multi Moons": {
     "kingdom": "All",

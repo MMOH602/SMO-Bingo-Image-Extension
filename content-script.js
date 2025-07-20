@@ -117,6 +117,10 @@ const worlds = [
   "snow",
   "seaside",
   "luncheon",
+  "ruined",
+  "bowsers",
+  "moon",
+  "mushroom",
   "all"
 ];
 
