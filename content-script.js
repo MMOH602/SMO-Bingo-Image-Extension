@@ -1,7 +1,33 @@
-// File: content-script.js
-
 console.log("🎉 Super Mario Bingo Extension is active");
 
+// ================================
+// @font-face-Injektion für Bangers
+// ================================
+(function injectBangersFont() {
+  const fontUrl = chrome.runtime.getURL("fonts/Bangers.woff2");
+  const style = document.createElement("style");
+  style.textContent = `
+    @font-face {
+      font-family: 'Bangers';
+      src: url('${fontUrl}') format('woff2');
+      font-weight: normal;
+      font-style: normal;
+      font-display: swap;
+    }
+  `;
+  document.head.appendChild(style);
+})();
+
+const mapFiles = {
+    'SMO':                  'bingo-mapping.json',
+    'SMO Short':            'bingo-mapping-short.json',
+    'SMO Long':             'bingo-mapping-long.json',
+    'SMO All Kingdoms':     'bingo-mapping-all-kingdoms.json',
+    'SMO AK + PG':          'bingo-mapping-all-kingdoms-post-game.json'
+  };
+
+let currentVariant = null;
+let bingoMapping = null;
 let showDifficulty = false;
 
 // Lade die Preference vor allem anderen
@@ -21,39 +47,62 @@ chrome.storage.onChanged.addListener((changes, area) => {
   }
 });
 
-
-// ================================
-// 1) @font-face-Injektion für Bangers
-// ================================
-(function injectBangersFont() {
-  const fontUrl = chrome.runtime.getURL("fonts/Bangers.woff2");
-  const style = document.createElement("style");
-  style.textContent = `
-    @font-face {
-      font-family: 'Bangers';
-      src: url('${fontUrl}') format('woff2');
-      font-weight: normal;
-      font-style: normal;
-      font-display: swap;
-    }
-  `;
-  document.head.appendChild(style);
-})();
-
-
-let bingoMapping = null;
-
-// Lädt das Mapping aus der JSON-Datei, die in der Extension liegt
-async function loadMapping() {
-  const url = chrome.runtime.getURL("data/bingo-mapping.json");
+// Fetch the room-settings JSON and extract the game
+async function fetchRoomSettings() {
+  // Build the URL: ensure trailing slash so relative resolution works
+  const base = window.location.href.endsWith('/') 
+    ? window.location.href 
+    : window.location.href + '/';
+  const settingsUrl = new URL('room-settings', base).href;
+  
+  console.log('Fetching room settings from', settingsUrl);
   try {
-    const response = await fetch(url);
-    bingoMapping = await response.json();
-    console.log("Loaded Bingo-Mapping", bingoMapping);
+    const resp = await fetch(settingsUrl, { headers: { 'Accept': 'application/json' } });
+    if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+    const data = await resp.json();
+    console.log('Room settings JSON:', data);
+    return data.settings?.variant || null;
   } catch (e) {
-    console.error("Error when loading Mapping-JSON:", e);
+    console.warn('Could not fetch room settings:', e);
+    return null;
   }
 }
+
+// Laden des Mappings, abhängig von currentVariant
+async function loadMapping() {
+  // 1) Game aus room-settings ermitteln
+  currentVariant = await fetchRoomSettings();
+  console.log('Detected Variant:', currentVariant);
+
+  // 2) Map-Datei auswählen
+  const mapFiles = {
+    'SMO':                  'bingo-mapping.json',
+    'SMO Short':            'bingo-mapping-short.json',
+    'SMO Long':             'bingo-mapping-long.json',
+    'SMO All Kingdoms':     'bingo-mapping-all-kingdoms.json',
+    'SMO AK + PG':          'bingo-mapping-all-kingdoms-post-game.json'
+  };
+
+  const filename = mapFiles[currentVariant];
+  if (!filename) {
+    console.warn(`No mapping defined for Game="${currentVariant}".`);
+    bingoMapping = null;
+    return;
+  }
+
+  // 3) Mapping‑JSON laden
+  const url = chrome.runtime.getURL(`data/${filename}`);
+  try {
+    const resp = await fetch(url);
+    if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+    bingoMapping = await resp.json();
+    console.log(`Loaded ${filename}`, bingoMapping);
+  } catch (e) {
+    console.error(`Error loading ${filename}:`, e);
+    bingoMapping = null;
+  }
+}
+
 
 // Liste der möglichen Kingdom-Namen (kleingeschrieben, um CSS-Klassen abzuleiten)
 const worlds = [
@@ -67,6 +116,11 @@ const worlds = [
   "metro",
   "snow",
   "seaside",
+  "luncheon",
+  "ruined",
+  "bowsers",
+  "moon",
+  "mushroom",
   "all"
 ];
 
@@ -99,60 +153,75 @@ function addBadge(slotId, kingdom) {
 }
 
 // Ersetzt in jedem Slot-Element den Text durch das Bild (falls vorhanden) und hängt das Badge an
-function updateBoard() {
-  // nur ausführen, wenn .board-cover wirklich verborgen ist
+async function updateBoard() {
+  // 1) Mapping neu laden
+  await loadMapping();
+
+  // 2) Wenn kein Mapping verfügbar, nichts tun
+  if (!bingoMapping) {
+    console.log('updateBoard: no mapping, skipping tile update.');
+    return;
+  }
+
+  // 3) Nur laufen lassen, wenn das Cover weg ist
   const cover = document.querySelector('.board-cover');
-  const isHidden = cover && window.getComputedStyle(cover).display === 'none';
-  if (!isHidden) return;
+  if (cover && window.getComputedStyle(cover).display !== 'none') {
+    console.log('updateBoard: board-cover still visible, skipping.');
+    return;
+  }
 
-  if (!bingoMapping) return;
-
+  // 4) Alle 25 Slots updaten
   for (let slotId = 1; slotId <= 25; slotId++) {
-    const td = document.getElementById("slot" + slotId);
+    const td = document.getElementById('slot' + slotId);
     if (!td) continue;
 
-    const textDiv = td.querySelector(".vertical-center.text-container");
+    const textDiv = td.querySelector('.vertical-center.text-container');
     if (!textDiv) continue;
 
     const currentText = textDiv.textContent.trim();
     const entry = bingoMapping[currentText];
     if (!entry) continue;
 
-    // a) Bild & Text
-    if (entry.image) {
-      const imgSrc = chrome.runtime.getURL(entry.image);
-      textDiv.innerHTML = "";
-      const img = document.createElement("img");
-      img.src = imgSrc;
+    // — Bild & optional Text —
+    if (entry.image && !textDiv.querySelector('img')) {
+      textDiv.innerHTML = '';
+      const img = document.createElement('img');
+      img.src = chrome.runtime.getURL(entry.image);
+      img.style.position = 'absolute';
+      img.style.top = '50%';
+      img.style.left = '50%';
+      img.style.transform = 'translate(-50%, -50%)';
+      img.style.opacity = '0.5';
+      img.style.zIndex = '0';
+      img.style.maxWidth = '80%';
+      img.style.maxHeight = '80%';
+      img.style.pointerEvents = 'none';
       textDiv.appendChild(img);
+
       if (entry.text) {
-        const textNode = document.createElement("div");
-        textNode.classList.add("text-overlay");
+        const textNode = document.createElement('div');
+        textNode.className = 'text-overlay';
         textNode.textContent = entry.text;
         textDiv.appendChild(textNode);
       }
     }
 
-    // b) Badge
+    // — Badge —
     addBadge(slotId, entry.kingdom);
 
-        // c) Difficulty unten rechts (nur wenn toggled on)
+    // — Difficulty Label (falls aktiviert) —
     if (showDifficulty && entry.difficulty != null) {
-      if (!td.querySelector(".difficulty-label")) {
-        const diffLabel = document.createElement("div");
-        diffLabel.className = "difficulty-label";
+      if (!td.querySelector('.difficulty-label')) {
+        const diffLabel = document.createElement('div');
+        diffLabel.className = 'difficulty-label';
         diffLabel.textContent = entry.difficulty;
         td.appendChild(diffLabel);
       }
     }
-
   }
-}
 
-// Starte everything
-window.addEventListener("load", () => {
-loadMapping();
-});
+  console.log('updateBoard: completed');
+}
 
 
 // === Zwischen ColorChooser und Bingo-Board einen Container + Button injizieren ===
@@ -160,6 +229,12 @@ loadMapping();
 function injectLoadButtonBelowChooser() {
   const chooser = document.getElementById('color-chooser');
   if (!chooser) return console.warn('Color Chooser nicht gefunden.');
+
+  // Only show the button if we detected a valid game mapping
+  if (!currentVariant || !mapFiles[currentVariant]) {
+    console.log(`Skipping Load Images button: no mapping for Game="${currentVariant}".`);
+    return;
+  }
 
   // Prüfen, ob wir schon injiziert haben
   if (document.getElementById('smo-load-container')) return;
@@ -222,5 +297,41 @@ function injectLoadButtonBelowChooser() {
   container.appendChild(btn);
 }
 
-// Aufruf nach Window-Load mit kleinem Delay
-window.addEventListener('load', () => setTimeout(injectLoadButtonBelowChooser, 500));
+// Hilfsfunktion: entfernt den Load-Button-Container, falls kein Mapping da ist
+function cleanupLoadButton() {
+  const container = document.getElementById('smo-load-container');
+  if (container && !bingoMapping) {
+    container.remove();
+    console.log('Removed Load Images button (no mapping).');
+  }
+}
+
+// Nach Page‑Load: nur Button injizieren (wenn Mapping da ist)
+window.addEventListener('load', async () => {
+  await loadMapping();                    // lädt bingoMapping (oder null)
+  setTimeout(injectLoadButtonBelowChooser, 500);
+});
+
+/*
+// 1) Listener auf „New Card“‑Clicks per Event‑Delegation
+document.body.addEventListener('click', e => {
+  // fange Klicks auf den Button
+  if (e.target.id === 'generate-new-card') {
+    console.log('New Card clicked, reloading mapping in ~600ms...');
+    // 2) Kurz warten bis BingoSync Board & Settings aktualisiert hat
+    setTimeout(async () => {
+      // 3) Mapping neu laden
+      await loadMapping();
+
+      // 4) Je nach Ergebnis: Button (re-)injecten oder entfernen
+      injectLoadButtonBelowChooser();
+      cleanupLoadButton();
+
+      // 5) Und natürlich das Board updaten, falls Mapping da ist
+      if (bingoMapping) {
+        updateBoard();
+      }
+    }, 1500); // Delay (anpassen, falls nötig)
+  }
+});
+*/
