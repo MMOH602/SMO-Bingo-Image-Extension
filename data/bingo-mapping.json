@@ -343,7 +343,7 @@
   },
   "Walking the Desert (Sand)": {
     "kingdom": "Sand",
-    "image": "images/misc/sombrero_koopa2.png",
+    "image": "images/misc/koopa_tracewalking.png",
     "difficulty": 6,
     "text": "Walking the Desert"
   },

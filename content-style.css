@@ -19,12 +19,17 @@
 .smobadge-sand      { background-color: #8CE42E; }
 .smobadge-lake      { background-color: #F47DB3; }
 .smobadge-wooded    { background-color: #1871FF; }
-.smobadge-cloud     { background-color: #F8D700; } /* nur, wenn Cloud tatsächlich benutzt wird */
+.smobadge-cloud     { background-color: #F8D700; }
 .smobadge-lost      { background-color: #F8D700; }
 .smobadge-metro     { background-color: #EE8C5B; }
 .smobadge-snow      { background-color: #FFA50F; }
 .smobadge-seaside   { background-color: #CD83F6; }
-.smobadge-all       { background-color: #888888; }
+.smobadge-luncheon  { background-color: #2D9081; }
+.smobadge-ruined    { background-color: #F8D700; }
+.smobadge-bowsers   { background-color: #DF3250; }
+.smobadge-moon      { background-color: #EBDB78; }
+.smobadge-mushroom  { background-color: #F8D700; }
+.smobadge-all       { background-color: #617d9e; }
 
 /* Feinschliff: Text-Container in der Kachel leicht nach links schieben */
 td.square > .vertical-center.text-container {
