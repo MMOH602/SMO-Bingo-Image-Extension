@@ -47,3 +47,9 @@ input:checked + .slider:before {
   font-size: 14px;
   vertical-align: middle;
 }
+
+.option-row {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}

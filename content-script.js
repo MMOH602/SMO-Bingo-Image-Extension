@@ -29,14 +29,17 @@ const mapFiles = {
 let currentVariant = null;
 let bingoMapping = null;
 let showDifficulty = false;
+let enableRightClickGlow = false;
 
-// Lade die Preference vor allem anderen
-chrome.storage.sync.get({ showDifficulty: false }, prefs => {
-  showDifficulty = prefs.showDifficulty;
-  console.log("Show Difficulty Labels:", showDifficulty);
-  // Wenn das Mapping schon geladen ist, wende updateBoard evtl. erneut an:
-  if (bingoMapping) updateBoard();
-});
+// Lade gespeicherte Einstellungen
+chrome.storage.sync.get(
+  { showDifficulty: false, enableRightClickGlow: false },
+  prefs => {
+    showDifficulty = prefs.showDifficulty;
+    enableRightClickGlow = prefs.enableRightClickGlow;
+    console.log('Right‑Click Glow enabled:', enableRightClickGlow);
+  }
+);
 
 // Optional: auf Änderungen reagieren (falls in Options-Tab umgeschaltet)
 chrome.storage.onChanged.addListener((changes, area) => {
@@ -44,6 +47,14 @@ chrome.storage.onChanged.addListener((changes, area) => {
     showDifficulty = changes.showDifficulty.newValue;
     console.log("Show Difficulty changed:", showDifficulty);
     updateBoard();
+  }
+});
+
+// Reagiere auf Änderungen zur Laufzeit
+chrome.storage.onChanged.addListener((changes, area) => {
+  if (area === 'sync' && 'enableRightClickGlow' in changes) {
+    enableRightClickGlow = changes.enableRightClickGlow.newValue;
+    console.log('Right‑Click Glow toggled:', enableRightClickGlow);
   }
 });
 
@@ -311,6 +322,51 @@ window.addEventListener('load', async () => {
   await loadMapping();                    // lädt bingoMapping (oder null)
   setTimeout(injectLoadButtonBelowChooser, 500);
 });
+
+// ☀️ Rechtsklick‑Glow nur, wenn enableRightClickGlow == true
+function setupRightClickGlow() {
+  // entferne alte ggf., um Doppelbindungen zu vermeiden
+  document.querySelectorAll('.inset-glow-overlay').forEach(el => el.remove());
+
+  // bind an alle Slots
+  document.querySelectorAll('td[id^="slot"]').forEach(slot => {
+    slot.oncontextmenu = e => {
+      if (e.button !== 2) return;  // nur Rechtsklick
+      // kein preventDefault – Kontextmenu bleibt
+      if (!enableRightClickGlow) return; // nur wenn Option an
+
+      // toggle overlay
+      const existing = slot.querySelector('.inset-glow-overlay');
+      if (existing) {
+        existing.remove();
+      } else {
+        slot.style.position = 'relative';
+        slot.style.overflow = 'hidden';
+        const glow = document.createElement('div');
+        glow.className = 'inset-glow-overlay';
+        Object.assign(glow.style, {
+          position:      'absolute',
+          top:           '0',
+          left:          '0',
+          width:         '100%',
+          height:        '100%',
+          pointerEvents: 'none',
+          boxShadow:     'inset 0 0 10px 5px rgba(255, 255, 255, 0.8)',
+          zIndex:        '1'
+        });
+        slot.appendChild(glow);
+      }
+    };
+  });
+}
+
+// Starte den Glow‑Setup nach Page‑Load und nach jedem Board‑Update:
+window.addEventListener('load', () => {
+  // nach einem kurzen Delay, wenn das Board da ist
+  setTimeout(setupRightClickGlow, 500);
+});
+
+
 
 /*
 // 1) Listener auf „New Card“‑Clicks per Event‑Delegation
