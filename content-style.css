@@ -32,13 +32,13 @@
 }
 
 /* Hintergrundfarben pro Kingdom */
-.smobadge-cap       { background-color: #F8D700; }
+.smobadge-cap       { background-color: #000000; }
 .smobadge-cascade   { background-color: #F8D700; }
 .smobadge-sand      { background-color: #8CE42E; }
 .smobadge-lake      { background-color: #F47DB3; }
 .smobadge-wooded    { background-color: #1871FF; }
 .smobadge-cloud     { background-color: #F8D700; }
-.smobadge-lost      { background-color: #F8D700; }
+.smobadge-lost      { background-color: #791682; }
 .smobadge-metro     { background-color: #EE8C5B; }
 .smobadge-snow      { background-color: #FFA50F; }
 .smobadge-seaside   { background-color: #CD83F6; }
