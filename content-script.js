@@ -323,25 +323,33 @@ window.addEventListener('load', async () => {
   setTimeout(injectLoadButtonBelowChooser, 500);
 });
 
-// ☀️ Rechtsklick‑Glow nur, wenn enableRightClickGlow == true
 function setupRightClickGlow() {
-  // entferne alte ggf., um Doppelbindungen zu vermeiden
   document.querySelectorAll('.inset-glow-overlay').forEach(el => el.remove());
 
-  // bind an alle Slots
   document.querySelectorAll('td[id^="slot"]').forEach(slot => {
     slot.oncontextmenu = e => {
-      if (e.button !== 2) return;  // nur Rechtsklick
-      // kein preventDefault – Kontextmenu bleibt
-      if (!enableRightClickGlow) return; // nur wenn Option an
+      if (e.button !== 2) return;            // nur Rechtsklick
+      if (!enableRightClickGlow) return;     // Option aus?
 
-      // toggle overlay
+      // Modifier-abhängiges Prevent
+      const isCtrl  = e.ctrlKey;
+      const isAlt   = e.altKey;
+      if (isCtrl || isAlt) {
+        e.preventDefault();  // Menü nur bei Ctrl+Rechts und Alt+Rechts unterbinden
+      }
+
+      // Bestimme Glow-Farbe
+      let glowColor = 'rgba(255, 255, 255, 0.8)'; // Standard weiß
+      if (isCtrl)        glowColor = 'rgba(255, 255, 0, 0.8)'; // Gelb
+      else if (isAlt)    glowColor = 'rgba(255, 0, 0, 0.8)';   // Rot
+
+      // Toggle Overlay
       const existing = slot.querySelector('.inset-glow-overlay');
       if (existing) {
         existing.remove();
       } else {
-        slot.style.position = 'relative';
-        slot.style.overflow = 'hidden';
+        slot.style.position  = 'relative';
+        slot.style.overflow  = 'hidden';
         const glow = document.createElement('div');
         glow.className = 'inset-glow-overlay';
         Object.assign(glow.style, {
@@ -351,8 +359,8 @@ function setupRightClickGlow() {
           width:         '100%',
           height:        '100%',
           pointerEvents: 'none',
-          boxShadow:     'inset 0 0 10px 5px rgba(255, 255, 255, 0.8)',
-          zIndex:        '1'
+          boxShadow:     `inset 0 0 10px 5px ${glowColor}`,
+          zIndex:        '9999'
         });
         slot.appendChild(glow);
       }
@@ -360,34 +368,9 @@ function setupRightClickGlow() {
   });
 }
 
+
 // Starte den Glow‑Setup nach Page‑Load und nach jedem Board‑Update:
 window.addEventListener('load', () => {
   // nach einem kurzen Delay, wenn das Board da ist
   setTimeout(setupRightClickGlow, 500);
 });
-
-
-
-/*
-// 1) Listener auf „New Card“‑Clicks per Event‑Delegation
-document.body.addEventListener('click', e => {
-  // fange Klicks auf den Button
-  if (e.target.id === 'generate-new-card') {
-    console.log('New Card clicked, reloading mapping in ~600ms...');
-    // 2) Kurz warten bis BingoSync Board & Settings aktualisiert hat
-    setTimeout(async () => {
-      // 3) Mapping neu laden
-      await loadMapping();
-
-      // 4) Je nach Ergebnis: Button (re-)injecten oder entfernen
-      injectLoadButtonBelowChooser();
-      cleanupLoadButton();
-
-      // 5) Und natürlich das Board updaten, falls Mapping da ist
-      if (bingoMapping) {
-        updateBoard();
-      }
-    }, 1500); // Delay (anpassen, falls nötig)
-  }
-});
-*/
