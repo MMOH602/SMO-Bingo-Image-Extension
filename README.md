@@ -5,7 +5,7 @@ SMO-specific extension that adds images on Bingosync.
   <img src="https://github.com/user-attachments/assets/e80e9c45-3c50-43c6-93c8-323fe300fc36" width="300px">
 </p>
 
-How to install:
+# How to install:
 
 Only Chrome and Edge have been tested but the extension should work in all Chromium‑based browsers (Chrome, Edge, Brave, Opera, Vivaldi) under Manifest V3. Trying to use it with Firefox results in major issues.
 
@@ -16,9 +16,16 @@ Only Chrome and Edge have been tested but the extension should work in all Chrom
 3. Enable **Developer mode**.  
 4. Click **Load unpacked** (or **Load temporary extension** in Opera) and select the project folder.
 
-Configuration & Settings:
+# Features
+- **Replace tile text** with images (32 px height) defined in a JSON mapping.  
+- **Add colored badges** (e.g. `CASADE`, `SAND`, `LAKE`, `ALL`) to each tile based on its “kingdom.”
+- **Toggleable difficulty labels**: Show or hide a small difficulty number (1–25) in the bottom‑right of each tile via the extension’s Settings.
+- **Optional glow effect on tiles**: Right-click a tile to toggle a glowing border (white, yellow with Ctrl, red with Alt), configurable via the extension’s Settings.   
+- **“Load Images”** button lets you manually (re‑)apply the image/badge overlay.  
 
-1. Open the Settings (Options) page
+# Configuration & Settings:
+
+### Open the Settings (Options) page
 
 - **Via Extensions page**  
   1. Go to `chrome://extensions/`  
@@ -30,7 +37,9 @@ Configuration & Settings:
   2. Find **Super Mario Bingo Overlay**  
   3. Click the three‑dot menu → **Options**
 
-2. Show or hide Difficulty Labels
+### Available settings
+
+1. **Show or hide Difficulty Labels**
 
 On the Settings page you’ll see a toggle:
 
@@ -40,15 +49,22 @@ On the Settings page you’ll see a toggle:
 - **On**: a small number representing the difficulty (1–25) appears in the bottom‑right of each bingo tile.  
 
 Your choice is saved automatically via `chrome.storage` and persists across browser restarts.
- 
 
-Features:
-- **Replace tile text** with images (32 px height) defined in a JSON mapping.  
-- **Add colored badges** (e.g. `CASADE`, `SAND`, `LAKE`, `ALL`) to each tile based on its “kingdom.”
-- **Toggleable difficulty labels**: Show or hide a small difficulty number (1–25) in the bottom‑right of each tile via the extension’s Settings.   
-- **“Load Images”** button lets you manually (re‑)apply the image/badge overlay.  
+2. **Enable Glow Effect on Tiles**
 
-Additional Notes:
+On the Settings page you’ll see another toggle:
+
+> **Enable additional glow effect when right-clicking tiles**   ◯─|
+
+- **Off (default)**: right-clicking tiles does nothing.
+- **On**: right-click toggles a glowing border effect on individual tiles:
+  - Right-Click: white glow
+  - Ctrl + Right-Click: yellow glow
+  - Alt + Right-Click: red glow
+
+The glow is purely visual and only affects your local view of the board.
+
+# Additional Notes
 - The button may appear on other games, but it won’t have any functionality there.
 - It won’t do anything while the board cover is still active.
 - To switch back to the standard text-only squares, simply refresh your browser.
